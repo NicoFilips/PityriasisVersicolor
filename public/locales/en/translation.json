@@ -1,0 +1,99 @@
+{
+  "site": {
+    "title": "Pityriasis Versicolor",
+    "subtitle": "Understanding, treating, and living with PV"
+  },
+  "nav": {
+    "home": "Home",
+    "story": "My Story",
+    "disease": "Understanding PV",
+    "treatments": "Treatments",
+    "research": "Research & Studies",
+    "gutSkin": "Gut-Skin Axis"
+  },
+  "footer": {
+    "disclaimer": "This website reflects personal experiences and research. I am not a medical professional. Always consult a dermatologist for diagnosis and treatment.",
+    "copyright": "{{year}} Pityriasis Versicolor — A personal project by Nico"
+  },
+  "home": {
+    "heroTitle": "Living with Pityriasis Versicolor",
+    "heroText": "After 8 years with this condition, I've learned a lot — about treatments, about the science behind it, and about what actually helps. This site is my way of sharing that knowledge with others who are going through the same thing.",
+    "whatIs": {
+      "title": "What is Pityriasis Versicolor?",
+      "text": "Pityriasis Versicolor (also known as Tinea Versicolor) is a common fungal skin condition caused by an overgrowth of Malassezia yeast, which naturally lives on everyone's skin. It causes discolored patches — lighter or darker than the surrounding skin — that can appear on the chest, back, arms, and neck."
+    },
+    "sections": {
+      "story": {
+        "title": "My Story",
+        "text": "8 years of living with PV — what I've tried, what worked, and what I've learned along the way."
+      },
+      "disease": {
+        "title": "Understanding PV",
+        "text": "How the condition works, what causes it, and why some people are more prone to it than others."
+      },
+      "treatments": {
+        "title": "Treatments",
+        "text": "Antifungals, topicals, lifestyle changes — an overview of what's available and what has worked for me."
+      },
+      "research": {
+        "title": "Research & Studies",
+        "text": "Links to scientific studies and papers, with plain-language summaries of the key findings."
+      },
+      "gutSkin": {
+        "title": "Gut-Skin Axis",
+        "text": "The emerging connection between gut health and skin conditions — and what you can try."
+      }
+    }
+  },
+  "story": {
+    "title": "My Story",
+    "intro": "Content coming soon — this page will share my personal journey with Pityriasis Versicolor over the past 8 years."
+  },
+  "disease": {
+    "title": "Understanding Pityriasis Versicolor",
+    "intro": "A deeper look at what Pityriasis Versicolor is, what causes it, and how it manifests on the skin.",
+    "definition": {
+      "title": "What is it?",
+      "text": "Pityriasis Versicolor is a fungal infection of the skin. Its hallmark symptom is patchy areas of discoloration — either lighter or darker than the surrounding skin."
+    },
+    "pathogen": {
+      "title": "The Pathogen",
+      "text": "The culprit is a yeast called Malassezia furfur (formerly known as Pityrosporum ovale). Here's the key insight: this yeast naturally lives on nearly everyone's skin as part of the normal skin flora. In people with a certain predisposition or weakened local immunity, it can overgrow and cause visible skin changes. The infection itself is harmless and not contagious."
+    },
+    "pathogenesis": {
+      "title": "How It Develops",
+      "text": "Since Malassezia furfur is part of the skin's normal flora, this is an endogenous infection — it comes from within, not from external contact. Why the disease manifests in some people but not others is still not fully understood.",
+      "triggers": "What we do know: it tends to flare up in summer months (UV radiation plays a role) and appears more often in areas exposed to sweat — forehead, hairline, shoulders.",
+      "mechanism": "When the yeast spreads across the skin, it grows in a sheet-like pattern. Its toxins interfere with melanin production, and the fungal layer itself blocks sunlight from reaching the affected skin. This double effect creates the characteristic discolored patches — which can merge together in larger areas."
+    },
+    "symptoms": {
+      "title": "What It Looks Like",
+      "text": "The primary symptom is patches of lighter or darker skin. These can appear as small individual spots or, in more extensive cases, merge into larger areas — sometimes described as a 'marbling' or 'map-like' pattern on the skin. Itching, if present, is usually mild.",
+      "alba": {
+        "title": "Pityriasis Versicolor Alba",
+        "text": "Light patches (hypopigmentation) on darker or tanned skin. This happens because the fungus disrupts melanin production in the affected areas."
+      },
+      "rubra": {
+        "title": "Pityriasis Versicolor Rubra",
+        "text": "Reddish-brown patches (hyperpigmentation) on lighter skin, caused by a local inflammatory reaction."
+      }
+    },
+    "diagnosis": {
+      "title": "How It's Diagnosed",
+      "text": "An experienced dermatologist can usually diagnose Pityriasis Versicolor by visual inspection alone.",
+      "methods": "For confirmation, skin flakes scraped from the affected area can be examined under a microscope, where the yeast cells appear as grape-like clusters. Alternatively, a piece of adhesive tape pressed onto the skin and stained with methylene blue reveals a characteristic pattern that dermatologists informally call 'spaghetti and meatballs.'"
+    }
+  },
+  "treatments": {
+    "title": "Treatments",
+    "intro": "Content coming soon — this page will cover various treatment options and what has worked for me."
+  },
+  "research": {
+    "title": "Research & Studies",
+    "intro": "Content coming soon — this page will link to scientific studies with plain-language summaries."
+  },
+  "gutSkin": {
+    "title": "Gut-Skin Axis",
+    "intro": "Content coming soon — this page will explore the connection between gut health and skin conditions."
+  }
+}

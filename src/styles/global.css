@@ -1,0 +1,7 @@
+.nav-item:hover {
+  background-color: var(--mantine-color-default-hover);
+}
+
+.nav-item[data-active='true']:hover {
+  background-color: var(--mantine-color-violet-light);
+}

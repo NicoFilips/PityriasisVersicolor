@@ -1,0 +1,18 @@
+{
+  "site": {
+    "title": "Pityriasis Versicolor",
+    "subtitle": "Verstehen, behandeln und leben mit PV"
+  },
+  "nav": {
+    "home": "Startseite",
+    "story": "Meine Geschichte",
+    "disease": "PV verstehen",
+    "treatments": "Behandlungen",
+    "research": "Forschung & Studien",
+    "gutSkin": "Darm-Haut-Achse"
+  },
+  "footer": {
+    "disclaimer": "Diese Website spiegelt persoenliche Erfahrungen und Recherchen wider. Ich bin kein Arzt. Konsultiere immer einen Dermatologen fuer Diagnose und Behandlung.",
+    "copyright": "{{year}} Pityriasis Versicolor — Ein persoenliches Projekt von Nico"
+  }
+}
