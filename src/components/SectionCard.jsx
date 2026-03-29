@@ -1,7 +1,7 @@
-import { Card, Text, Title, Stack } from '@mantine/core';
+import { Card, Text, Title, Stack, ThemeIcon } from '@mantine/core';
 import { Link } from 'react-router-dom';
 
-export default function SectionCard({ to, icon, title, text }) {
+export default function SectionCard({ to, icon: Icon, title, text, className }) {
   return (
     <Card
       component={Link}
@@ -9,18 +9,13 @@ export default function SectionCard({ to, icon, title, text }) {
       padding="lg"
       radius="md"
       withBorder
-      style={{ textDecoration: 'none', transition: 'transform 150ms ease, box-shadow 150ms ease' }}
-      onMouseEnter={(e) => {
-        e.currentTarget.style.transform = 'translateY(-4px)';
-        e.currentTarget.style.boxShadow = 'var(--mantine-shadow-md)';
-      }}
-      onMouseLeave={(e) => {
-        e.currentTarget.style.transform = 'translateY(0)';
-        e.currentTarget.style.boxShadow = 'none';
-      }}
+      className={`section-card ${className || ''}`}
+      style={{ textDecoration: 'none' }}
     >
       <Stack gap="sm">
-        <Text size="2rem">{icon}</Text>
+        <ThemeIcon variant="light" size="xl" radius="md" color="violet">
+          <Icon size={24} />
+        </ThemeIcon>
         <Title order={3} size="h4">{title}</Title>
         <Text size="sm" c="dimmed">{text}</Text>
       </Stack>

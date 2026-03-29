@@ -1,10 +1,11 @@
-import { Container, Title, Text, Stack, Paper, Divider, ThemeIcon, Group, Badge } from '@mantine/core';
-import { IconFileSearch, IconAlertCircle, IconSalad, IconVirus, IconShield, IconUsers } from '@tabler/icons-react';
+import { Container, Title, Text, Stack, Divider, ThemeIcon, Group, Badge } from '@mantine/core';
+import { IconAlertCircle, IconSalad, IconVirus, IconShield, IconUsers } from '@tabler/icons-react';
 import { useTranslation } from 'react-i18next';
+import HoverPaper from '../components/HoverPaper';
 
-function ResearchTopic({ icon: Icon, title, text, status }) {
+function ResearchTopic({ icon: Icon, title, text, status, delay = 0 }) {
   return (
-    <Paper p="lg" radius="md" withBorder>
+    <HoverPaper p="lg" radius="md" withBorder className={`reveal reveal-delay-${delay}`}>
       <Stack gap="md">
         <Group justify="space-between">
           <Group gap="sm">
@@ -19,7 +20,7 @@ function ResearchTopic({ icon: Icon, title, text, status }) {
         </Group>
         <Text>{text}</Text>
       </Stack>
-    </Paper>
+    </HoverPaper>
   );
 }
 
@@ -29,18 +30,19 @@ export default function Research() {
   return (
     <Container size="md" py="xl">
       <Stack gap="xl">
-        <Stack gap="xs">
-          <Title order={1}>{t('research.title')}</Title>
+        <Stack gap="xs" className="reveal">
+          <Title order={1} className="gradient-title">{t('research.title')}</Title>
           <Text c="dimmed" size="lg">{t('research.intro')}</Text>
         </Stack>
 
-        <Divider />
+        <Divider className="reveal reveal-delay-1" />
 
         <ResearchTopic
           icon={IconAlertCircle}
           title={t('research.misdiagnosis.title')}
           text={t('research.misdiagnosis.text')}
           status="investigating"
+          delay={2}
         />
 
         <ResearchTopic
@@ -48,6 +50,7 @@ export default function Research() {
           title={t('research.dietFungal.title')}
           text={t('research.dietFungal.text')}
           status="investigating"
+          delay={3}
         />
 
         <ResearchTopic
@@ -55,6 +58,7 @@ export default function Research() {
           title={t('research.probioticsSkin.title')}
           text={t('research.probioticsSkin.text')}
           status="collecting"
+          delay={4}
         />
 
         <ResearchTopic
@@ -62,6 +66,7 @@ export default function Research() {
           title={t('research.immuneSystem.title')}
           text={t('research.immuneSystem.text')}
           status="investigating"
+          delay={5}
         />
 
         <ResearchTopic
@@ -69,6 +74,7 @@ export default function Research() {
           title={t('research.communityNote.title')}
           text={t('research.communityNote.text')}
           status="collecting"
+          delay={6}
         />
       </Stack>
     </Container>

@@ -1,5 +1,5 @@
 import { Container, Text, Divider, Stack, Group, ActionIcon, Tooltip } from '@mantine/core';
-import { IconBrandLinkedin, IconMail } from '@tabler/icons-react';
+import { IconBrandLinkedin, IconMail, IconBrandGithub } from '@tabler/icons-react';
 import { useTranslation } from 'react-i18next';
 
 export default function Footer() {
@@ -34,6 +34,19 @@ export default function Footer() {
               radius="md"
             >
               <IconBrandLinkedin size={20} />
+            </ActionIcon>
+          </Tooltip>
+          <Tooltip label={t('footer.github')}>
+            <ActionIcon
+              component="a"
+              href="https://github.com/NicoFilips/PityriasisVersicolor"
+              target="_blank"
+              rel="noopener noreferrer"
+              variant="default"
+              size="xl"
+              radius="md"
+            >
+              <IconBrandGithub size={20} />
             </ActionIcon>
           </Tooltip>
         </Group>

@@ -1,6 +1,7 @@
 import { Container, Title, Text, Stack, Paper, Divider, ThemeIcon, Group, Badge, SimpleGrid, Alert, Table } from '@mantine/core';
-import { IconZoomQuestion, IconAlertTriangle, IconStethoscope, IconHeart, IconArrowsExchange } from '@tabler/icons-react';
+import { IconAlertTriangle, IconStethoscope, IconHeart, IconArrowsExchange } from '@tabler/icons-react';
 import { useTranslation } from 'react-i18next';
+import HoverPaper from '../components/HoverPaper';
 
 const conditions = [
   { key: 'vitiligo', color: 'blue' },
@@ -18,7 +19,7 @@ const diagnostics = ['koh', 'wood', 'biopsy', 'culture'];
 
 function ConditionCard({ conditionKey, color, t }) {
   return (
-    <Paper p="lg" radius="md" withBorder>
+    <HoverPaper p="lg" radius="md" withBorder>
       <Stack gap="sm">
         <Group justify="space-between" wrap="nowrap" align="flex-start">
           <Title order={4}>{t(`misdiagnosis.conditions.${conditionKey}.name`)}</Title>
@@ -31,7 +32,7 @@ function ConditionCard({ conditionKey, color, t }) {
           <Text size="xs" fw={600}>{t(`misdiagnosis.conditions.${conditionKey}.key`)}</Text>
         </Paper>
       </Stack>
-    </Paper>
+    </HoverPaper>
   );
 }
 
@@ -41,26 +42,28 @@ export default function Misdiagnosis() {
   return (
     <Container size="md" py="xl">
       <Stack gap="xl">
-        <Stack gap="xs">
-          <Title order={1}>{t('misdiagnosis.title')}</Title>
+        <Stack gap="xs" className="reveal">
+          <Title order={1} className="gradient-title">{t('misdiagnosis.title')}</Title>
           <Text c="dimmed" size="lg">{t('misdiagnosis.intro')}</Text>
         </Stack>
 
-        <Divider />
+        <Divider className="reveal reveal-delay-1" />
 
-        <Alert icon={<IconAlertTriangle size={20} />} title={t('misdiagnosis.important.title')} color="orange" variant="light">
-          <Text size="sm">{t('misdiagnosis.important.text')}</Text>
-        </Alert>
+        <div className="reveal reveal-delay-2">
+          <Alert icon={<IconAlertTriangle size={20} />} title={t('misdiagnosis.important.title')} color="orange" variant="light">
+            <Text size="sm">{t('misdiagnosis.important.text')}</Text>
+          </Alert>
+        </div>
 
-        <Title order={2}>Conditions That Look Similar</Title>
+        <Title order={2} className="reveal reveal-delay-3">Conditions That Look Similar</Title>
 
-        <SimpleGrid cols={{ base: 1, sm: 2 }} spacing="md">
+        <SimpleGrid cols={{ base: 1, sm: 2 }} spacing="md" className="reveal reveal-delay-4">
           {conditions.map((c) => (
             <ConditionCard key={c.key} conditionKey={c.key} color={c.color} t={t} />
           ))}
         </SimpleGrid>
 
-        <Paper p="lg" radius="md" withBorder>
+        <HoverPaper p="lg" radius="md" withBorder className="reveal reveal-delay-5">
           <Stack gap="md">
             <Group gap="sm">
               <ThemeIcon variant="light" size="lg" radius="md" color="teal">
@@ -113,11 +116,11 @@ export default function Misdiagnosis() {
               <Text size="sm" fw={600} ta="center">{t('misdiagnosis.conditions.pmh.comparison.quickRule')}</Text>
             </Paper>
           </Stack>
-        </Paper>
+        </HoverPaper>
 
         <Divider />
 
-        <Paper p="lg" radius="md" withBorder>
+        <HoverPaper p="lg" radius="md" withBorder className="reveal reveal-delay-6">
           <Stack gap="md">
             <Group gap="sm">
               <ThemeIcon variant="light" size="lg" radius="md">
@@ -127,18 +130,20 @@ export default function Misdiagnosis() {
             </Group>
             <SimpleGrid cols={{ base: 1, sm: 2 }} spacing="sm">
               {diagnostics.map((key) => (
-                <Paper key={key} p="md" radius="sm" withBorder>
+                <HoverPaper key={key} p="md" radius="sm" withBorder>
                   <Text fw={600} size="sm" mb={4}>{t(`misdiagnosis.diagnostics.${key}.name`)}</Text>
                   <Text size="xs" c="dimmed">{t(`misdiagnosis.diagnostics.${key}.desc`)}</Text>
-                </Paper>
+                </HoverPaper>
               ))}
             </SimpleGrid>
           </Stack>
-        </Paper>
+        </HoverPaper>
 
-        <Alert icon={<IconHeart size={20} />} title={t('misdiagnosis.advice.title')} color="violet" variant="light">
-          <Text size="sm">{t('misdiagnosis.advice.text')}</Text>
-        </Alert>
+        <div className="reveal reveal-delay-6">
+          <Alert icon={<IconHeart size={20} />} title={t('misdiagnosis.advice.title')} color="violet" variant="light">
+            <Text size="sm">{t('misdiagnosis.advice.text')}</Text>
+          </Alert>
+        </div>
       </Stack>
     </Container>
   );

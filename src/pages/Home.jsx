@@ -1,14 +1,22 @@
-import { Container, Title, Text, SimpleGrid, Stack } from '@mantine/core';
+import { Container, Title, Text, SimpleGrid, Stack, Box, ThemeIcon } from '@mantine/core';
+import {
+  IconBook,
+  IconMicroscope,
+  IconPill,
+  IconFileSearch,
+  IconHeartbeat,
+  IconZoomQuestion,
+} from '@tabler/icons-react';
 import { useTranslation } from 'react-i18next';
 import SectionCard from '../components/SectionCard';
 
 const sections = [
-  { key: 'story', to: '/story', icon: '📖' },
-  { key: 'disease', to: '/disease', icon: '🔬' },
-  { key: 'treatments', to: '/treatments', icon: '💊' },
-  { key: 'research', to: '/research', icon: '📚' },
-  { key: 'gutSkin', to: '/gut-skin', icon: '🧬' },
-  { key: 'misdiagnosis', to: '/misdiagnosis', icon: '🔍' },
+  { key: 'story', to: '/story', icon: IconBook },
+  { key: 'disease', to: '/disease', icon: IconMicroscope },
+  { key: 'treatments', to: '/treatments', icon: IconPill },
+  { key: 'research', to: '/research', icon: IconFileSearch },
+  { key: 'gutSkin', to: '/gut-skin', icon: IconHeartbeat },
+  { key: 'misdiagnosis', to: '/misdiagnosis', icon: IconZoomQuestion },
 ];
 
 export default function Home() {
@@ -17,15 +25,25 @@ export default function Home() {
   return (
     <Container size="lg" py="xl">
       <Stack gap="xl">
-        <Stack gap="md" align="center" ta="center">
-          <Title order={1}>{t('home.heroTitle')}</Title>
-          <Text size="lg" maw={700} c="dimmed">
-            {t('home.heroText')}
-          </Text>
-        </Stack>
+        {/* Hero with gradient background and floating dots */}
+        <Box className="hero-section" px="xl" py="xl" ta="center">
+          <div className="hero-dot" />
+          <div className="hero-dot" />
+          <div className="hero-dot" />
+          <div className="hero-dot" />
+          <div className="hero-dot" />
+          <Stack gap="md" align="center" style={{ position: 'relative', zIndex: 1 }}>
+            <Title order={1} size="2.5rem" className="gradient-title reveal">
+              {t('home.heroTitle')}
+            </Title>
+            <Text size="lg" maw={700} c="dimmed" className="reveal reveal-delay-1">
+              {t('home.heroText')}
+            </Text>
+          </Stack>
+        </Box>
 
-        <Stack gap="md" mt="xl">
-          <Title order={2} ta="center">{t('home.whatIs.title')}</Title>
+        <Stack gap="md" mt="md" className="reveal reveal-delay-2">
+          <Title order={2} ta="center" className="gradient-title">{t('home.whatIs.title')}</Title>
           <Text ta="center" maw={700} mx="auto" c="dimmed">
             {t('home.whatIs.text')}
           </Text>
@@ -36,13 +54,14 @@ export default function Home() {
           spacing="lg"
           mt="xl"
         >
-          {sections.map((section) => (
+          {sections.map((section, i) => (
             <SectionCard
               key={section.key}
               to={section.to}
               icon={section.icon}
               title={t(`home.sections.${section.key}.title`)}
               text={t(`home.sections.${section.key}.text`)}
+              className={`reveal reveal-delay-${i + 1}`}
             />
           ))}
         </SimpleGrid>

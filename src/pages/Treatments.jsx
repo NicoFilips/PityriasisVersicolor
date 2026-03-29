@@ -1,10 +1,11 @@
 import { Container, Title, Text, Stack, Paper, Divider, ThemeIcon, Group, Badge, SimpleGrid, List, Alert } from '@mantine/core';
 import { IconDroplet, IconPill, IconLeaf, IconSalad, IconAlertTriangle, IconHeart } from '@tabler/icons-react';
 import { useTranslation } from 'react-i18next';
+import HoverPaper from '../components/HoverPaper';
 
-function Section({ icon: Icon, title, children }) {
+function Section({ icon: Icon, title, children, delay = 0 }) {
   return (
-    <Paper p="lg" radius="md" withBorder>
+    <HoverPaper p="lg" radius="md" withBorder className={`reveal reveal-delay-${delay}`}>
       <Stack gap="md">
         <Group gap="sm">
           <ThemeIcon variant="light" size="lg" radius="md">
@@ -14,16 +15,16 @@ function Section({ icon: Icon, title, children }) {
         </Group>
         {children}
       </Stack>
-    </Paper>
+    </HoverPaper>
   );
 }
 
 function SupplementCard({ name, desc }) {
   return (
-    <Paper p="md" radius="sm" withBorder>
+    <HoverPaper p="md" radius="sm" withBorder>
       <Text fw={600} size="sm" mb={4}>{name}</Text>
       <Text size="xs" c="dimmed">{desc}</Text>
-    </Paper>
+    </HoverPaper>
   );
 }
 
@@ -35,37 +36,37 @@ export default function Treatments() {
   return (
     <Container size="md" py="xl">
       <Stack gap="xl">
-        <Stack gap="xs">
-          <Title order={1}>{t('treatments.title')}</Title>
+        <Stack gap="xs" className="reveal">
+          <Title order={1} className="gradient-title">{t('treatments.title')}</Title>
           <Text c="dimmed" size="lg">{t('treatments.intro')}</Text>
         </Stack>
 
-        <Divider />
+        <Divider className="reveal reveal-delay-1" />
 
-        <Section icon={IconDroplet} title={t('treatments.topical.title')}>
+        <Section icon={IconDroplet} title={t('treatments.topical.title')} delay={2}>
           <Stack gap="sm">
-            <Paper p="md" radius="sm" withBorder>
+            <HoverPaper p="md" radius="sm" withBorder>
               <Group gap="sm" mb="xs">
                 <Badge variant="light">Topical</Badge>
                 <Text fw={600} size="sm">{t('treatments.topical.ketoconazole.name')}</Text>
               </Group>
               <Text size="sm" c="dimmed">{t('treatments.topical.ketoconazole.desc')}</Text>
-            </Paper>
-            <Paper p="md" radius="sm" withBorder>
+            </HoverPaper>
+            <HoverPaper p="md" radius="sm" withBorder>
               <Group gap="sm" mb="xs">
                 <Badge variant="light">Topical</Badge>
                 <Text fw={600} size="sm">{t('treatments.topical.nizoral.name')}</Text>
               </Group>
               <Text size="sm" c="dimmed">{t('treatments.topical.nizoral.desc')}</Text>
-            </Paper>
+            </HoverPaper>
           </Stack>
         </Section>
 
-        <Section icon={IconPill} title={t('treatments.oral.title')}>
+        <Section icon={IconPill} title={t('treatments.oral.title')} delay={3}>
           <Text>{t('treatments.oral.text')}</Text>
         </Section>
 
-        <Section icon={IconLeaf} title={t('treatments.supplements.title')}>
+        <Section icon={IconLeaf} title={t('treatments.supplements.title')} delay={4}>
           <SimpleGrid cols={{ base: 1, sm: 2 }} spacing="sm">
             {supplements.map((key) => (
               <SupplementCard
@@ -77,7 +78,7 @@ export default function Treatments() {
           </SimpleGrid>
         </Section>
 
-        <Section icon={IconSalad} title={t('treatments.diet.title')}>
+        <Section icon={IconSalad} title={t('treatments.diet.title')} delay={5}>
           <Text>{t('treatments.diet.text')}</Text>
           <Paper p="sm" radius="sm" bg="var(--mantine-color-violet-light)">
             <Text size="sm" fw={500}>{t('treatments.diet.why')}</Text>
@@ -85,7 +86,7 @@ export default function Treatments() {
           <Text size="sm" c="dimmed" fs="italic">{t('treatments.diet.challenge')}</Text>
         </Section>
 
-        <Section icon={IconAlertTriangle} title={t('treatments.triggers.title')}>
+        <Section icon={IconAlertTriangle} title={t('treatments.triggers.title')} delay={6}>
           <List spacing="sm" size="sm">
             <List.Item>{t('treatments.triggers.carbs')}</List.Item>
             <List.Item>{t('treatments.triggers.alcohol')}</List.Item>
@@ -94,9 +95,11 @@ export default function Treatments() {
           </List>
         </Section>
 
-        <Alert icon={<IconHeart size={20} />} title={t('treatments.honest.title')} color="violet" variant="light">
-          <Text size="sm">{t('treatments.honest.text')}</Text>
-        </Alert>
+        <div className="reveal reveal-delay-6">
+          <Alert icon={<IconHeart size={20} />} title={t('treatments.honest.title')} color="violet" variant="light">
+            <Text size="sm">{t('treatments.honest.text')}</Text>
+          </Alert>
+        </div>
       </Stack>
     </Container>
   );

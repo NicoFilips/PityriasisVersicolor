@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "Pityriasis Versicolor",
+    "title": "My Journey with Pityriasis Versicolor",
     "subtitle": "Understanding, treating, and living with PV"
   },
   "nav": {
@@ -17,11 +17,12 @@
     "copyright": "{{year}} Pityriasis Versicolor — A personal project by Nico",
     "contact": "Have questions, tips, or your own experience to share? I'd love to hear from you.",
     "email": "Send me an email",
-    "linkedin": "Connect on LinkedIn"
+    "linkedin": "Connect on LinkedIn",
+    "github": "View source on GitHub"
   },
   "home": {
-    "heroTitle": "Living with Pityriasis Versicolor",
-    "heroText": "After 8 years with this condition, I've learned a lot — about treatments, about the science behind it, and about what actually helps. This site is my way of sharing that knowledge with others who are going through the same thing.",
+    "heroTitle": "A Lifelong Journey with Pityriasis Versicolor",
+    "heroText": "8 years of searching for answers, trying treatments, and learning to understand my own body. This is everything I've found along the way — for anyone walking the same path.",
     "whatIs": {
       "title": "What is Pityriasis Versicolor?",
       "text": "Pityriasis Versicolor (also known as Tinea Versicolor) is a common fungal skin condition caused by an overgrowth of Malassezia yeast, which naturally lives on everyone's skin. It causes discolored patches — lighter or darker than the surrounding skin — that can appear on the chest, back, arms, and neck."
