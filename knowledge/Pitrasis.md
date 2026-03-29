@@ -1,5 +1,5 @@
 1. Definition
-Die Pityriasis versicolor ist eine Mykose der Haut mit dem Leitsymptom fleckiger Hypopigmentationen.
+Die Pityriasis versicolor (auch bekannt als Tinea versicolor / Kleienpilzflechte) ist eine Mykose der Haut mit dem Leitsymptom fleckiger Hypopigmentationen.
 
 2. Erreger
 Erreger der Pityriasis versicolor ist der Hefepilz Malassezia furfur (früher: Pityrosporum ovale). Malassezia furfur gehört bei nahezu der gesamten Bevölkerung zur residenten Hautflora. Bei entsprechender Disposition und Schwächung der lokalen Immunität kann er zu lokalen Infektionen der Haut führen. Die Infektion ist prinzipiell harmlos und nicht kontagiös.

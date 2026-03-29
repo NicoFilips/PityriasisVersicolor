@@ -3,7 +3,7 @@
 Notes on the connection between gut health and skin conditions. Not rendered on the website.
 
 ## Core Understanding
-- Malassezia yeast causes Pityriasis Versicolor (Kleienpilzflechte)
+- Malassezia yeast causes Pityriasis Versicolor (also known as Tinea Versicolor / Kleienpilzflechte)
 - Candida diet concept: yeast overgrowth in stomach AND skin may be connected
 - Treating only the skin may not be enough — need to address gut as well
 

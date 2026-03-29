@@ -1,6 +1,8 @@
 # Misdiagnosis — Notes
 
-Conditions commonly confused with Pityriasis Versicolor. Not rendered on the website.
+Conditions commonly confused with Pityriasis Versicolor (also known as Tinea Versicolor / Kleienpilzflechte). Not rendered on the website.
+
+**Important:** Pityriasis Versicolor and Tinea Versicolor are the SAME condition — just different names. "Pityriasis" is the more modern/European term, "Tinea" is commonly used in the US. Both refer to the superficial fungal infection caused by Malassezia yeast.
 
 ## Conditions That Look Similar
 
@@ -50,6 +52,16 @@ Conditions commonly confused with Pityriasis Versicolor. Not rendered on the web
 - History of prior skin trauma, burn, or rash in that area
 - No active scaling
 - Not fungal — just melanocyte damage from prior event
+
+### CARP — Confluent and Reticulated Papillomatosis
+- Rare skin disorder, usually in adolescents and young adults
+- Brown to hyperpigmented scaly macules or small papules
+- **Key pattern:** Merge centrally and form a net-like (reticulated) pattern at the edges
+- Most often on upper trunk and neck
+- **Does NOT clear with antifungals** — this is a key differentiator from PV
+- PV has positive fungal microscopy, CARP does not
+- **Clinical rule of thumb:** Reticulated, slightly warty/papular brown lesions → think CARP; flat discolored patches with fine scale → think PV
+- Texture matters: CARP is papular (slightly raised/bumpy), PV is flat
 
 ### Mycosis Fungoides (Cutaneous T-Cell Lymphoma)
 - Very rare but important to rule out

@@ -55,7 +55,7 @@
   },
   "story": {
     "title": "My Story",
-    "intro": "Living with Pityriasis Versicolor for over 8 years has been a journey of trial, error, frustration, and learning. This is my personal experience — not medical advice, but an honest account that might help you feel less alone.",
+    "intro": "Living with Pityriasis Versicolor (Tinea Versicolor) for over 8 years has been a journey of trial, error, frustration, and learning. This is my personal experience — not medical advice, but an honest account that might help you feel less alone.",
     "beginning": {
       "title": "How It Started",
       "text": "I first noticed discolored patches on my skin about 8 years ago. What started as a few spots gradually spread to cover large areas of my body. Multiple dermatologists confirmed the diagnosis of Pityriasis Versicolor through skin scrapes, though I've since learned that misdiagnosis with similar conditions is surprisingly common."
@@ -76,14 +76,21 @@
       "title": "What I've Learned",
       "text": "The biggest discovery has been the connection between diet and my symptoms. A strict ketogenic diet — completely eliminating carbohydrates — is the only thing that has made a real, visible difference. This led me down the path of investigating the gut-skin connection, Candida, and the role of the immune system in managing this condition.",
       "message": "If you're reading this and struggling with the same thing — you're not alone. This website is my attempt to compile everything I've learned so it might help someone else find their path to better skin health."
+    },
+    "perspective": {
+      "title": "A Different Perspective",
+      "text": "This is a condition that will be with me — and many others — for the rest of our lives. There is no magic cure. And once you accept that, something shifts. You stop fighting against it and start working with your body instead.",
+      "stress": "Stress is one of the worst things for your immune system, and stressing about a chronic skin condition only makes it worse. As frustrating and exhausting as it gets, you have to find a way to see it differently. This condition is an opportunity — to get to know your body better, to improve your overall health, and to come out stronger than before.",
+      "growth": "Look at it from a positive perspective. Motivate yourself to keep improving. Because at the end of the day, your body and your health are the only things you truly have. You don't really have a choice — so you might as well make the best of it.",
+      "message": "Don't let a skin condition define your life. Let it be the reason you take better care of yourself than you ever would have otherwise."
     }
   },
   "disease": {
     "title": "Understanding Pityriasis Versicolor",
-    "intro": "A deeper look at what Pityriasis Versicolor is, what causes it, and how it manifests on the skin.",
+    "intro": "A deeper look at what Pityriasis Versicolor (also called Tinea Versicolor) is, what causes it, and how it manifests on the skin. Both names refer to the same condition.",
     "definition": {
       "title": "What is it?",
-      "text": "Pityriasis Versicolor is a fungal infection of the skin. Its hallmark symptom is patchy areas of discoloration — either lighter or darker than the surrounding skin."
+      "text": "Pityriasis Versicolor — also known as Tinea Versicolor — is a fungal infection of the skin. The two names are interchangeable: 'Pityriasis' is more common in European medicine, while 'Tinea Versicolor' is widely used in the US. Its hallmark symptom is patchy areas of discoloration — either lighter or darker than the surrounding skin."
     },
     "pathogen": {
       "title": "The Pathogen",
@@ -93,7 +100,9 @@
       "title": "How It Develops",
       "text": "Since Malassezia furfur is part of the skin's normal flora, this is an endogenous infection — it comes from within, not from external contact. Why the disease manifests in some people but not others is still not fully understood.",
       "triggers": "What we do know: it tends to flare up in summer months (UV radiation plays a role) and appears more often in areas exposed to sweat — forehead, hairline, shoulders.",
-      "mechanism": "When the yeast spreads across the skin, it grows in a sheet-like pattern. Its toxins interfere with melanin production, and the fungal layer itself blocks sunlight from reaching the affected skin. This double effect creates the characteristic discolored patches — which can merge together in larger areas."
+      "mechanism": "When the yeast spreads across the skin, it grows in a sheet-like pattern. Its toxins interfere with melanin production, and the fungal layer itself blocks sunlight from reaching the affected skin. This double effect creates the characteristic discolored patches — which can merge together in larger areas.",
+      "prevalence": "PV is more common than many people think — it affects an estimated 1–8% of the population in temperate climates, and up to 40–50% in tropical and humid regions. Despite this, many sufferers feel isolated because the condition is rarely discussed openly.",
+      "susceptibility": "One theory is that chronic PV sufferers may lack specific immune proteins — such as antimicrobial peptides or components of the Th17 immune response — that normally keep Malassezia in check. This could explain why most people carry the yeast harmlessly while others develop persistent, treatment-resistant infections."
     },
     "symptoms": {
       "title": "What It Looks Like",
@@ -197,7 +206,7 @@
     },
     "immuneSystem": {
       "title": "Immune System & Susceptibility",
-      "text": "Nearly everyone carries Malassezia yeast on their skin, yet only some develop Pityriasis Versicolor. Understanding what weakens local skin immunity — and why certain people are predisposed — could be key to finding better treatments."
+      "text": "Nearly everyone carries Malassezia yeast on their skin, yet only some develop Pityriasis Versicolor. Understanding what weakens local skin immunity — and why certain people are predisposed — could be key to finding better treatments. One community theory suggests a deficiency in specific immune proteins that prevent the body from fighting Malassezia spores naturally. While the exact mechanism is unclear, research into antimicrobial peptides and Th17 immune responses may hold answers."
     },
     "communityNote": {
       "title": "Community Knowledge",
@@ -222,7 +231,7 @@
     },
     "pvCandida": {
       "title": "PV, Candida & The Immune System",
-      "text": "Both Pityriasis Versicolor (Malassezia on the skin) and Candida (in the gut) are fungal conditions. A weakened immune system could allow both to thrive simultaneously. Carbohydrate and sugar intake feeds both fungi at the same time, which might explain why dietary changes have such a dramatic effect on skin symptoms."
+      "text": "Both Pityriasis Versicolor / Tinea Versicolor (Malassezia on the skin) and Candida (in the gut) are fungal conditions. A weakened immune system could allow both to thrive simultaneously. Carbohydrate and sugar intake feeds both fungi at the same time, which might explain why dietary changes have such a dramatic effect on skin symptoms."
     },
     "strategy": {
       "title": "My Current Gut Health Strategy",
@@ -245,7 +254,7 @@
   },
   "misdiagnosis": {
     "title": "Is It Really Pityriasis Versicolor?",
-    "intro": "Misdiagnosis is more common than you'd think. Several skin conditions look similar to PV. Understanding the differences can help you have better conversations with your dermatologist — or push for a second opinion.",
+    "intro": "Misdiagnosis is more common than you'd think. Several skin conditions look similar to Pityriasis Versicolor (Tinea Versicolor). Understanding the differences can help you have better conversations with your dermatologist — or push for a second opinion.",
     "important": {
       "title": "Why This Matters",
       "text": "If standard PV treatment hasn't worked after years of consistent effort, it's worth asking: is the diagnosis correct? Multiple dermatologists confirmed my PV diagnosis through skin scrapes, but online forums are full of stories about misdiagnosis. Being informed about similar conditions helps you advocate for yourself."
@@ -299,7 +308,7 @@
         "desc": "Multiple light-colored patches, usually on the trunk. Spots are poorly defined, often merge together, and are NOT scaly. Usually asymptomatic — no itching, no pain. Seen mostly in teenagers and young adults. Caused by Cutibacterium acnes (a bacterium), NOT a fungal infection — so antifungal treatments won't work. Treatment involves UV phototherapy, benzoyl peroxide, or antibiotics.",
         "key": "Light patches WITHOUT scale, no itch, bacterial — antifungals won't help",
         "comparison": {
-          "title": "PMH vs. Pityriasis Versicolor",
+          "title": "PMH vs. Pityriasis Versicolor (Tinea Versicolor)",
           "pmhColor": "Only lighter patches",
           "pvColor": "Lighter OR darker patches",
           "pmhScale": "No scaling at all",

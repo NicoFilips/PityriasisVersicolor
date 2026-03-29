@@ -45,6 +45,10 @@ export default function Disease() {
             <Text size="sm" fw={500}>{t('disease.pathogenesis.triggers')}</Text>
           </Paper>
           <Text>{t('disease.pathogenesis.mechanism')}</Text>
+          <Paper p="sm" radius="sm" bg="var(--mantine-color-violet-light)">
+            <Text size="sm" fw={500}>{t('disease.pathogenesis.prevalence')}</Text>
+          </Paper>
+          <Text>{t('disease.pathogenesis.susceptibility')}</Text>
         </Section>
 
         <Section icon={IconEye} title={t('disease.symptoms.title')}>

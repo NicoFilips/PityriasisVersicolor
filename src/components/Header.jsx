@@ -24,6 +24,7 @@ import {
 } from '@tabler/icons-react';
 import ThemeToggle from './ThemeToggle';
 import LanguageSwitcher from './LanguageSwitcher';
+import { SearchButton } from './Search';
 
 const navItems = [
   { key: 'home', to: '/', icon: IconHome },
@@ -113,11 +114,13 @@ export default function Header() {
           </Title>
 
           <Group gap="sm" visibleFrom="sm">
+            <SearchButton />
             <LanguageSwitcher />
             <ThemeToggle />
           </Group>
 
           <Group gap="xs" hiddenFrom="sm">
+            <SearchButton />
             <LanguageSwitcher />
             <ThemeToggle />
             <Burger opened={opened} onClick={toggle} size="sm" />

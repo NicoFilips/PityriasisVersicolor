@@ -9,10 +9,350 @@
     "disease": "PV verstehen",
     "treatments": "Behandlungen",
     "research": "Forschung & Studien",
-    "gutSkin": "Darm-Haut-Achse"
+    "gutSkin": "Darm-Haut-Achse",
+    "misdiagnosis": "Ist es wirklich PV?"
   },
   "footer": {
     "disclaimer": "Diese Website spiegelt persoenliche Erfahrungen und Recherchen wider. Ich bin kein Arzt. Konsultiere immer einen Dermatologen fuer Diagnose und Behandlung.",
-    "copyright": "{{year}} Pityriasis Versicolor — Ein persoenliches Projekt von Nico"
+    "copyright": "{{year}} Pityriasis Versicolor — Ein persoenliches Projekt von Nico",
+    "contact": "Hast du Fragen, Tipps oder eigene Erfahrungen? Ich freue mich von dir zu hoeren.",
+    "email": "Schreib mir eine E-Mail",
+    "linkedin": "Vernetze dich auf LinkedIn"
+  },
+  "home": {
+    "heroTitle": "Leben mit Pityriasis Versicolor",
+    "heroText": "Nach 8 Jahren mit dieser Erkrankung habe ich viel gelernt — ueber Behandlungen, die Wissenschaft dahinter und was wirklich hilft. Diese Seite ist meine Art, dieses Wissen mit anderen zu teilen, die dasselbe durchmachen.",
+    "whatIs": {
+      "title": "Was ist Pityriasis Versicolor?",
+      "text": "Pityriasis Versicolor (auch bekannt als Tinea Versicolor oder Kleienpilzflechte) ist eine haeufige Pilzerkrankung der Haut, verursacht durch ein Ueberwachstum des Hefepilzes Malassezia, der natuerlich auf der Haut jedes Menschen lebt. Sie verursacht verfaerbte Flecken — heller oder dunkler als die umgebende Haut — die auf Brust, Ruecken, Armen und Nacken auftreten koennen."
+    },
+    "sections": {
+      "story": {
+        "title": "Meine Geschichte",
+        "text": "8 Jahre mit PV — was ich versucht habe, was funktioniert hat und was ich auf dem Weg gelernt habe."
+      },
+      "disease": {
+        "title": "PV verstehen",
+        "text": "Wie die Erkrankung funktioniert, was sie verursacht und warum manche Menschen anfaelliger sind als andere."
+      },
+      "treatments": {
+        "title": "Behandlungen",
+        "text": "Antimykotika, Topika, Lebensstilaenderungen — ein Ueberblick ueber das, was verfuegbar ist und was mir geholfen hat."
+      },
+      "research": {
+        "title": "Forschung & Studien",
+        "text": "Links zu wissenschaftlichen Studien und Arbeiten, mit verstaendlichen Zusammenfassungen der wichtigsten Ergebnisse."
+      },
+      "gutSkin": {
+        "title": "Darm-Haut-Achse",
+        "text": "Die aufkommende Verbindung zwischen Darmgesundheit und Hauterkrankungen — und was du ausprobieren kannst."
+      },
+      "misdiagnosis": {
+        "title": "Ist es wirklich PV?",
+        "text": "Fehldiagnosen sind haeufig. Erfahre mehr ueber Erkrankungen, die aehnlich aussehen, und wie du die richtige Diagnose bekommst."
+      }
+    }
+  },
+  "story": {
+    "title": "Meine Geschichte",
+    "intro": "Seit ueber 8 Jahren mit Pityriasis Versicolor (Tinea Versicolor / Kleienpilzflechte) zu leben, war eine Reise voller Versuche, Fehler, Frustration und Lernen. Das ist meine persoenliche Erfahrung — kein medizinischer Rat, sondern ein ehrlicher Bericht, der dir vielleicht hilft, dich weniger allein zu fuehlen.",
+    "beginning": {
+      "title": "Wie es anfing",
+      "text": "Ich bemerkte die verfaerbten Flecken auf meiner Haut vor etwa 8 Jahren zum ersten Mal. Was als ein paar Flecken begann, breitete sich nach und nach auf grosse Bereiche meines Koerpers aus. Mehrere Dermatologen bestaetigten die Diagnose Pityriasis Versicolor durch Hautabstriche, obwohl ich seitdem gelernt habe, dass Fehldiagnosen mit aehnlichen Erkrankungen ueberraschend haeufig sind."
+    },
+    "affected": {
+      "title": "Betroffene Bereiche",
+      "chest": "Meine Brust ist am schlimmsten betroffen — besonders unter der Brust. Hier sind die Ausbrueche am intensivsten und sichtbarsten.",
+      "back": "Mein Ruecken ist maessig betroffen — intensiver als die Arme, mit etwas merklichem Schuppen.",
+      "mild": "Oberarme, Leistenbereich und Kopfhaut sind leicht betroffen — kaum bemerkbar mit sehr wenig Schuppung.",
+      "pattern": "Die Ausschlaege erscheinen in kreisfoermigen Mustern, meist braun/rot. Sie werden nach dem Konsum von Kohlenhydraten oder Alkohol deutlich intensiver."
+    },
+    "struggle": {
+      "title": "Der taegliche Kampf",
+      "text": "In 7-8 Jahren habe ich es kein einziges Mal geschafft, die betroffenen Stellen vollstaendig zu beseitigen — egal wie hart ich daran gearbeitet habe. Nach schlimmen Ausbruechen, ausgeloest durch zu viele Kohlenhydrate, Weizen oder Alkohol, kratze ich manchmal meine Haut bis sie blutet. Es ist nicht nur ein kosmetisches Problem — es beeinflusst deine Lebensqualitaet, dein Selbstvertrauen und deine taeglichen Entscheidungen.",
+      "itching": "Interessanterweise ist der Juckreiz meist minimal und verbessert sich, wenn die Gesamtsymptome besser werden."
+    },
+    "discovery": {
+      "title": "Was ich gelernt habe",
+      "text": "Die groesste Entdeckung war die Verbindung zwischen Ernaehrung und meinen Symptomen. Eine strikte ketogene Diaet — der vollstaendige Verzicht auf Kohlenhydrate — ist das Einzige, das einen echten, sichtbaren Unterschied gemacht hat. Das fuehrte mich dazu, die Darm-Haut-Verbindung, Candida und die Rolle des Immunsystems bei der Bewaeltigung dieser Erkrankung zu untersuchen.",
+      "message": "Wenn du das liest und mit dem Gleichen kaempfst — du bist nicht allein. Diese Website ist mein Versuch, alles zusammenzutragen, was ich gelernt habe, damit es jemand anderem helfen koennte, seinen Weg zu besserer Hautgesundheit zu finden."
+    },
+    "perspective": {
+      "title": "Eine andere Perspektive",
+      "text": "Das ist eine Erkrankung, die mich — und viele andere — fuer den Rest unseres Lebens begleiten wird. Es gibt keine Wunderheilung. Und sobald man das akzeptiert, veraendert sich etwas. Man hoert auf dagegen anzukaempfen und faengt an, mit seinem Koerper zu arbeiten statt gegen ihn.",
+      "stress": "Stress ist eines der schlimmsten Dinge fuer dein Immunsystem, und sich ueber eine chronische Hauterkrankung zu stressen macht es nur schlimmer. So frustrierend und belastend es auch wird — du musst einen Weg finden, es anders zu sehen. Diese Erkrankung ist eine Chance — deinen Koerper besser kennenzulernen, deine allgemeine Gesundheit zu verbessern und staerker daraus hervorzugehen als zuvor.",
+      "growth": "Betrachte es aus einer positiven Perspektive. Motiviere dich selbst, dich weiterzuverbessern. Denn am Ende des Tages sind dein Koerper und deine Gesundheit das Einzige, was du wirklich hast. Du hast eigentlich keine Wahl — also mach das Beste daraus.",
+      "message": "Lass nicht zu, dass eine Hauterkrankung dein Leben bestimmt. Lass sie der Grund sein, warum du besser auf dich achtest, als du es je zuvor getan haettest."
+    }
+  },
+  "disease": {
+    "title": "Pityriasis Versicolor verstehen",
+    "intro": "Ein genauerer Blick auf Pityriasis Versicolor (auch Tinea Versicolor oder Kleienpilzflechte genannt) — was es ist, was es verursacht und wie es sich auf der Haut zeigt. Beide Namen bezeichnen dieselbe Erkrankung.",
+    "definition": {
+      "title": "Was ist es?",
+      "text": "Pityriasis Versicolor — auch bekannt als Tinea Versicolor oder Kleienpilzflechte — ist eine Pilzinfektion der Haut. Die Namen sind austauschbar: 'Pityriasis' ist in der europaeischen Medizin gebraeuchlicher, waehrend 'Tinea Versicolor' in den USA weit verbreitet ist. Das Leitsymptom sind fleckige Verfaerbungen — heller oder dunkler als die umgebende Haut."
+    },
+    "pathogen": {
+      "title": "Der Erreger",
+      "text": "Der Verursacher ist ein Hefepilz namens Malassezia furfur (frueher bekannt als Pityrosporum ovale). Der entscheidende Punkt: Dieser Hefepilz lebt natuerlich auf der Haut fast aller Menschen als Teil der normalen Hautflora. Bei Menschen mit einer bestimmten Veranlagung oder geschwaechter lokaler Immunitaet kann er ueberwachsen und sichtbare Hautveraenderungen verursachen. Die Infektion selbst ist harmlos und nicht ansteckend."
+    },
+    "pathogenesis": {
+      "title": "Wie es entsteht",
+      "text": "Da Malassezia furfur zur normalen Hautflora gehoert, handelt es sich um eine endogene Infektion — sie kommt von innen, nicht durch aeusseren Kontakt. Warum sich die Krankheit bei manchen Menschen manifestiert, bei anderen aber nicht, ist noch nicht vollstaendig geklaert.",
+      "triggers": "Was wir wissen: Sie flammt tendenziell in den Sommermonaten auf (UV-Strahlung spielt eine Rolle) und tritt haeufiger in schweissexponierten Bereichen auf — Stirn, Haaransatz, Schultern.",
+      "mechanism": "Wenn sich der Hefepilz auf der Haut ausbreitet, waechst er flaechenartig. Seine Toxine stoeren die Melaninproduktion, und die Pilzschicht selbst blockiert Sonnenlicht. Dieser doppelte Effekt erzeugt die charakteristischen verfaerbten Flecken — die in groesseren Bereichen zusammenfliessen koennen.",
+      "prevalence": "PV ist haeufiger als viele denken — schaetzungsweise 1–8% der Bevoelkerung in gemaessigten Klimazonen und bis zu 40–50% in tropischen und feuchten Regionen sind betroffen. Trotzdem fuehlen sich viele Betroffene isoliert, weil offen selten darueber gesprochen wird.",
+      "susceptibility": "Eine Theorie besagt, dass chronische PV-Betroffene moeglicherweise einen Mangel an bestimmten Immunproteinen haben — etwa antimikrobielle Peptide oder Komponenten der Th17-Immunantwort — die Malassezia normalerweise in Schach halten. Das koennte erklaeren, warum die meisten Menschen den Hefepilz harmlos auf der Haut tragen, waehrend andere hartnäckige, therapieresistente Infektionen entwickeln."
+    },
+    "symptoms": {
+      "title": "Wie es aussieht",
+      "text": "Das Hauptsymptom sind hellere oder dunklere Hautflecken. Diese koennen als kleine einzelne Flecken erscheinen oder bei staerkerem Befall zu groesseren Flaechen zusammenfliessen — manchmal als 'Marmorierung' oder 'landkartenartige Musterung' der Haut beschrieben. Juckreiz, falls vorhanden, ist meist mild.",
+      "alba": {
+        "title": "Pityriasis Versicolor Alba",
+        "text": "Helle Flecken (Hypopigmentierung) auf dunklerer oder gebraeunter Haut. Dies geschieht, weil der Pilz die Melaninproduktion in den betroffenen Bereichen stoert."
+      },
+      "rubra": {
+        "title": "Pityriasis Versicolor Rubra",
+        "text": "Roetlich-braune Flecken (Hyperpigmentierung) auf hellerer Haut, verursacht durch eine lokale Entzuendungsreaktion."
+      }
+    },
+    "diagnosis": {
+      "title": "Wie es diagnostiziert wird",
+      "text": "Ein erfahrener Dermatologe kann Pityriasis Versicolor in der Regel durch eine Blickdiagnose erkennen.",
+      "methods": "Zur Bestaetigung koennen Hautschuppen aus dem betroffenen Bereich abgekratzt und unter dem Mikroskop untersucht werden, wo die Hefezellen als traubenfoermige Haufen erscheinen. Alternativ kann ein Stueck Tesafilm auf die Haut gedrueckt, mit Methylenblau gefaerbt und mikroskopiert werden. Dermatologen nennen das charakteristische Bild umgangssprachlich 'Spaghetti mit Hackbaellchen'."
+    }
+  },
+  "treatments": {
+    "title": "Behandlungen",
+    "intro": "Ein Ueberblick ueber das, was ich in 8 Jahren ausprobiert habe — von verschreibungspflichtigen Antimykotika bis hin zu Nahrungsergaenzungsmitteln und Lebensstilaenderungen. Jeder reagiert anders, aber so sieht mein Behandlungsplan aus.",
+    "topical": {
+      "title": "Topische Behandlungen",
+      "ketoconazole": {
+        "name": "Ketoconazol-Duschgel",
+        "desc": "Antimykotische Waschlotion, die regelmaessig beim Duschen verwendet wird. Eine der Standardbehandlungen fuer PV — toetet den Malassezia-Hefepilz bei Kontakt."
+      },
+      "nizoral": {
+        "name": "Nizoral Creme",
+        "desc": "Ketoconazol-basierte Creme, die direkt auf betroffene Stellen aufgetragen wird. Nuetzlich fuer die gezielte Behandlung sichtbarer Flecken."
+      }
+    },
+    "oral": {
+      "title": "Orale Antimykotika",
+      "text": "Verschreibungspflichtige antimykotische Tabletten zur oralen Einnahme. Diese bekaempfen den Pilz systemisch von innen. Von meinem Dermatologen als Teil der Behandlungsstrategie verschrieben."
+    },
+    "supplements": {
+      "title": "Nahrungsergaenzungsmittel",
+      "zinc": {
+        "name": "Zink",
+        "desc": "Wichtig fuer Hautgesundheit und Immunfunktion. Unterstuetzt die natuerliche Abwehr der Haut gegen Pilzueberwachstum."
+      },
+      "probiotics": {
+        "name": "Probiotika",
+        "desc": "2-4 Kapseln taeglich zur Unterstuetzung der Darmflora. Ein gesundes Darmmikrobiom ist mit besserer Immunantwort und Hautgesundheit verbunden."
+      },
+      "inulin": {
+        "name": "Inulin",
+        "desc": "Praebiotischer Ballaststoff, der nuetzliche Darmbakterien fuettert und Probiotika hilft, sich anzusiedeln und zu gedeihen."
+      },
+      "spirulina": {
+        "name": "Spirulina",
+        "desc": "Naehrstoffreiches Algenpraeparat zur Unterstuetzung des Immunsystems."
+      },
+      "omega3": {
+        "name": "Omega 3",
+        "desc": "Entzuendungshemmende Fettsaeuren, die helfen koennen, die Entzuendungsreaktion der Haut auf Pilzueberwachstum zu reduzieren."
+      },
+      "chia": {
+        "name": "Chiasamen",
+        "desc": "Eine weitere praebiotische Quelle zur Unterstuetzung der probiotischen Besiedlung im Darm."
+      },
+      "garlic": {
+        "name": "Knoblauchkapseln",
+        "desc": "Natuerliche antimykotische Eigenschaften. Allicin im Knoblauch hemmt nachweislich das Pilzwachstum."
+      }
+    },
+    "diet": {
+      "title": "Ernaehrung — Der groesste Faktor",
+      "text": "Nach Jahren des Ausprobierens ist die wirksamste Behandlung eine Ernaehrungsumstellung. Eine strikte ketogene Diaet mit vollstaendigem Verzicht auf Kohlenhydrate ist das Einzige, das eine deutliche, sichtbare Verbesserung bringt.",
+      "why": "Warum funktioniert das? Pilze wie Malassezia und Candida ernaehren sich von Zucker. Indem man ihnen durch Kohlenhydrat-Eliminierung die Nahrungsquelle entzieht, hungert man sie aus. Die Verbesserung ist innerhalb von Wochen spuerbar.",
+      "challenge": "Die Herausforderung: Eine strikte Keto-Diaet langfristig durchzuhalten ist extrem schwierig, besonders bei intensiven Heisshungerattacken auf Zucker, die schlimmer werden, sobald man wieder Kohlenhydrate isst."
+    },
+    "triggers": {
+      "title": "Bekannte Ausloeser",
+      "carbs": "Uebermässiger Kohlenhydratkonsum, besonders Weizen — verursacht sichtbare Verstaerkung der Flecken",
+      "alcohol": "Alkoholkonsum — verschlechtert deutlich Farbe und Ausbreitung der Ausschlaege",
+      "sugar": "Zucker — erzeugt einen Teufelskreis aus Heisshunger, der es schwer macht, bei der antimykotischen Diaet zu bleiben",
+      "hygiene": "Duschen auslassen — Ausbrueche verschlechtern sich merklich ohne regelmaessige Reinigung"
+    },
+    "honest": {
+      "title": "Eine ehrliche Einschaetzung",
+      "text": "Trotz 7-8 Jahren konsequenter Behandlung — topisch, oral, Nahrungsergaenzungsmittel und Diaet — habe ich die betroffenen Stellen nie vollstaendig beseitigen koennen. Dies ist eine chronische Erkrankung, die fortlaufendes Management erfordert, keine einmalige Loesung. Aber die Kombination all dieser Ansaetze zusammen haelt es besser handhabbar als jede einzelne Behandlung allein."
+    }
+  },
+  "research": {
+    "title": "Forschung & Studien",
+    "intro": "Eine Sammlung von Forschungsthemen und Fragen, die ich aktiv untersuche. Sobald ich relevante Studien und Antworten finde, werde ich sie hier mit verstaendlichen Zusammenfassungen ergaenzen.",
+    "misdiagnosis": {
+      "title": "Bedenken zur Fehldiagnose",
+      "text": "Mehrere Dermatologen haben bei mir PV durch Hautabstriche diagnostiziert. Allerdings berichten Online-Quellen haeufig, dass Fehldiagnosen bei Pilzerkrankungen der Haut verbreitet sind. Erkrankungen wie Ekzeme, Vitiligo und andere Pilzinfektionen koennen aehnlich aussehen. Die Unterscheidung zwischen diesen Erkrankungen zu lernen, ist ein laufendes Forschungsthema fuer mich."
+    },
+    "dietFungal": {
+      "title": "Ernaehrung & Pilzinfektionen",
+      "text": "Es gibt zunehmend Hinweise darauf, dass Kohlenhydrat- und Zuckerkonsum das Pilzwachstum auf der Haut und im Darm direkt beeinflussen. Meine persoenliche Erfahrung unterstuetzt dies stark — eine ketogene Diaet ist die wirksamste Massnahme, die ich gefunden habe. Ich suche nach klinischen Studien, die diesen Mechanismus bestaetigen oder erklaeren."
+    },
+    "probioticsSkin": {
+      "title": "Probiotika & Hautgesundheit",
+      "text": "Kann die Einnahme von Probiotika Pilzerkrankungen der Haut verbessern? Welche spezifischen Staemme sind am wirksamsten? Dies ist ein Bereich, in dem anekdotische Evidenz der klinischen Forschung voraus ist, aber vielversprechende Studien entstehen."
+    },
+    "immuneSystem": {
+      "title": "Immunsystem & Anfaelligkeit",
+      "text": "Fast jeder traegt den Malassezia-Hefepilz auf der Haut, doch nur manche entwickeln Pityriasis Versicolor. Zu verstehen, was die lokale Hautimmunitaet schwaechen — und warum bestimmte Menschen praedisponiert sind — koennte der Schluessel zu besseren Behandlungen sein. Eine Theorie aus der Community besagt, dass ein Mangel an bestimmten Immunproteinen den Koerper daran hindert, Malassezia-Sporen natuerlich zu bekaempfen. Obwohl der genaue Mechanismus unklar ist, koennten Forschungen zu antimikrobiellen Peptiden und Th17-Immunantworten Antworten liefern."
+    },
+    "communityNote": {
+      "title": "Wissen aus der Community",
+      "text": "Einige der praktischsten Erkenntnisse stammen aus Online-Communities — Reddit, Foren und Selbsthilfegruppen — wo Menschen teilen, was ihnen tatsaechlich geholfen hat. Obwohl nicht wissenschaftlich geprueft, weisen diese realen Erfahrungen die Forschung oft in die richtige Richtung."
+    }
+  },
+  "gutSkin": {
+    "title": "Darm-Haut-Achse",
+    "intro": "Eine der wichtigsten Entdeckungen auf meinem Weg: die Verbindung zwischen dem, was in deinem Darm passiert, und dem, was sich auf deiner Haut zeigt.",
+    "connection": {
+      "title": "Die Darm-Haut-Verbindung",
+      "text": "Dein Darm und deine Haut sind staerker verbunden, als die meisten Menschen ahnen. Ein unausgeglichenes Darmmikrobiom (Dysbiose) kann sowohl die lokale als auch die systemische Immunitaet schwaechen und moeglicherweise Pilzueberwachstum zulassen — sowohl im Darm (Candida) als auch auf der Haut (Malassezia). Die Darmgesundheit zu verbessern kann genauso wichtig sein wie topische Behandlungen."
+    },
+    "candida": {
+      "title": "Die Candida-Hypothese",
+      "text": "Ich vermute zunehmend, dass Candida albicans — ein Hefepilz, der im Darm ueberwachsen kann — eine bedeutende Rolle bei meiner Hauterkrankung spielt. Folgendes deutet in diese Richtung:",
+      "evidence1": "Intensives Verlangen nach Zucker — besonders wenn man einmal anfaengt Zucker zu essen, wird es fast unmoeglich zu widerstehen. Candida ist dafuer bekannt, Zuckergelüste anzutreiben, da er sich davon ernaehrt.",
+      "evidence2": "Frueherer Antibiotika-Einsatz — Antibiotika toeten nuetzliche Darmbakterien und schaffen Raum fuer Candida-Ueberwachstum.",
+      "evidence3": "Ketogene Diaet verbessert die Hautsymptome massiv — Candida hungert ohne Kohlenhydrate.",
+      "evidence4": "Trotz 7-8 Jahren Behandlung kann der Pilz nicht vollstaendig beseitigt werden — was auf ein systemisches, nicht nur topisches Problem hindeutet.",
+      "evidence5": "Zahlreiche Online-Berichte von anderen, die ihre Hautprobleme durch Behandlung von Darm-Candida loesten."
+    },
+    "pvCandida": {
+      "title": "PV, Candida & das Immunsystem",
+      "text": "Sowohl Pityriasis Versicolor / Tinea Versicolor (Malassezia auf der Haut) als auch Candida (im Darm) sind Pilzerkrankungen. Ein geschwaechtes Immunsystem koennte beiden gleichzeitig das Gedeihen ermoeglichen. Kohlenhydrat- und Zuckerkonsum fuettert beide Pilze gleichzeitig, was erklaeren koennte, warum Ernaehrungsumstellungen so dramatische Auswirkungen auf die Hautsymptome haben."
+    },
+    "strategy": {
+      "title": "Meine aktuelle Darmgesundheits-Strategie",
+      "probiotics": "Probiotika — 2-4 Kapseln taeglich zur Wiederherstellung nuetzlicher Darmbakterien",
+      "prebiotics": "Praebiotika — Inulin und Chiasamen zur Unterstuetzung der probiotischen Besiedlung",
+      "spirulina": "Spirulina — zur Unterstuetzung des Immunsystems",
+      "garlic": "Knoblauchkapseln — natuerliche antimykotische Eigenschaften (Allicin)",
+      "omega3": "Omega 3 — entzuendungshemmende Unterstuetzung",
+      "diet": "Ketogene Diaet — die Pilze aushungern, indem man ihre primaere Nahrungsquelle eliminiert"
+    },
+    "tryThis": {
+      "title": "Was du ausprobieren kannst",
+      "text": "Wenn du mit hartnäckiger PV kaempfst, die auf topische Behandlungen allein nicht gut anspricht, solltest du deine Darmgesundheit in Betracht ziehen. Diese Schritte haben mir geholfen:",
+      "step1": "Beginne mit Probiotika und Praebiotika, um deine Darmflora zu unterstuetzen",
+      "step2": "Reduziere Zucker und raffinierte Kohlenhydrate so weit wie moeglich",
+      "step3": "Erwaege einen Test auf Candida-Ueberwachstum (Stuhltest)",
+      "step4": "Informiere dich ueber natuerliche Antimykotika wie Knoblauch neben der medizinischen Behandlung",
+      "step5": "Sei geduldig — die Darmwiederherstellung braucht Zeit, aber die Hautverbesserungen koennen erheblich sein"
+    }
+  },
+  "misdiagnosis": {
+    "title": "Ist es wirklich Pityriasis Versicolor?",
+    "intro": "Fehldiagnosen sind haeufiger als man denkt. Mehrere Hauterkrankungen sehen Pityriasis Versicolor (Tinea Versicolor / Kleienpilzflechte) aehnlich. Die Unterschiede zu verstehen kann dir helfen, bessere Gespraeche mit deinem Dermatologen zu fuehren — oder eine Zweitmeinung einzuholen.",
+    "important": {
+      "title": "Warum das wichtig ist",
+      "text": "Wenn die Standard-PV-Behandlung nach Jahren konsequenter Bemuehungen nicht funktioniert hat, lohnt es sich zu fragen: Stimmt die Diagnose? Mehrere Dermatologen haben meine PV-Diagnose durch Hautabstriche bestaetigt, aber Online-Foren sind voll von Geschichten ueber Fehldiagnosen. Informiert zu sein ueber aehnliche Erkrankungen hilft dir, fuer dich selbst einzutreten."
+    },
+    "conditions": {
+      "vitiligo": {
+        "name": "Vitiligo",
+        "type": "Autoimmun",
+        "desc": "Autoimmune Zerstoerung der Melanozyten verursacht vollstaendigen Pigmentverlust. Flecken sind reinweiss — nicht nur heller wie bei PV. Meist symmetrisch, keine Schuppung. KOH-Test negativ.",
+        "key": "Reinweisse Flecken, symmetrisch, keine Schuppung"
+      },
+      "alba": {
+        "name": "Pityriasis Alba",
+        "type": "Ekzem-verwandt",
+        "desc": "Haeufig bei Kindern und jungen Erwachsenen mit atopischer (ekzemanfaelliger) Haut. Blasse, leicht schuppige Flecken meist im Gesicht mit weniger definierten Raendern als PV. Nicht pilzbedingt — haengt mit trockener Haut zusammen. Loest sich meist von selbst.",
+        "key": "Meist Gesicht, Kinder, unscharfe Raender, selbstheilend"
+      },
+      "rosea": {
+        "name": "Pityriasis Rosea",
+        "type": "Moeglicherweise viral",
+        "desc": "Beginnt mit einem einzelnen 'Mutterfleck' und breitet sich dann aus. Ovale Flecken folgen den Hautlinien in einem 'Tannenbaumuster' auf dem Ruecken. Selbstlimitierend — loest sich in 6-8 Wochen. Moeglicherweise viral, nicht pilzbedingt. Kann PV rubra aehneln.",
+        "key": "Zuerst Mutterfleck, Tannenbaumuster, verschwindet in Wochen"
+      },
+      "tinea": {
+        "name": "Tinea Corporis (Ringelflechte)",
+        "type": "Pilz (andere Spezies)",
+        "desc": "Ebenfalls pilzbedingt, aber durch Dermatophyten verursacht — nicht Malassezia. Klassische ringfoermige Laesionen mit erhoehten, schuppigen Raendern und einem freien Zentrum. PV ist flach ohne Ringmuster. Juckt staerker als PV und spricht auf andere Antimykotika an.",
+        "key": "Ringfoermig mit erhoehten Raendern, staerkerer Juckreiz"
+      },
+      "seborrheic": {
+        "name": "Seborrhoische Dermatitis",
+        "type": "Pilz (gleiche Hefepilzfamilie)",
+        "desc": "Ebenfalls durch Malassezia verursacht — dieselbe Hefepilzfamilie wie PV! Aber mit gelblichen, fettigen Schuppen statt feinen trockenen. Konzentriert auf Gesicht, Kopfhaut, Augenbrauen und Nasolabialfalten. Entzuendlicher und juckender. Kann tatsaechlich neben PV bestehen.",
+        "key": "Fettige gelbe Schuppen, Gesicht/Kopfhaut, entzuendlicher"
+      },
+      "contact": {
+        "name": "Kontaktdermatitis",
+        "type": "Allergisch / Reizend",
+        "desc": "Verursacht durch Reizstoffe oder Allergene, nicht pilzbedingt. Rot, juckend, manchmal blasenbildend. Das Muster folgt der Exposition gegenueber dem Reizstoff. Loest sich, wenn der Ausloeser entfernt wird.",
+        "key": "Folgt Expositionsmuster, verschwindet bei Entfernung des Ausloesers"
+      },
+      "hypopigmentation": {
+        "name": "Postinflammatorische Hypopigmentierung",
+        "type": "Hautreaktion",
+        "desc": "Aufgehellte Haut nach Abklingen einer Entzuendung oder Verletzung. Es gibt immer eine Vorgeschichte eines Traumas, einer Verbrennung oder eines Ausschlags in diesem Bereich. Keine aktive Schuppung — nur Melanozytenschaeden durch ein frueheres Ereignis. Nicht pilzbedingt.",
+        "key": "Vorgeschichte von Hautschaeden, keine aktive Schuppung"
+      },
+      "pmh": {
+        "name": "Progressive Makulaere Hypomelanose (PMH)",
+        "type": "Bakteriell",
+        "desc": "Mehrere helle Flecken, meist am Rumpf. Flecken sind unscharf begrenzt, fliessen oft zusammen und sind NICHT schuppig. Meist asymptomatisch — kein Juckreiz, keine Schmerzen. Vor allem bei Teenagern und jungen Erwachsenen. Verursacht durch Cutibacterium acnes (ein Bakterium), KEINE Pilzinfektion — daher helfen Antimykotika nicht. Behandlung umfasst UV-Phototherapie, Benzoylperoxid oder Antibiotika.",
+        "key": "Helle Flecken OHNE Schuppung, kein Juckreiz, bakteriell — Antimykotika helfen nicht",
+        "comparison": {
+          "title": "PMH vs. Pityriasis Versicolor (Tinea Versicolor)",
+          "pmhColor": "Nur hellere Flecken",
+          "pvColor": "Hellere ODER dunklere Flecken",
+          "pmhScale": "Keine Schuppung",
+          "pvScale": "Feine, sichtbare Schuppung",
+          "pmhItch": "Kein Juckreiz, keine Schmerzen (asymptomatisch)",
+          "pvItch": "Meist leichter Juckreiz moeglich",
+          "pmhCause": "Cutibacterium acnes (Bakterium)",
+          "pvCause": "Malassezia furfur (Hefepilz)",
+          "pmhTreatment": "UV-Phototherapie, Benzoylperoxid, Antibiotika",
+          "pvTreatment": "Antimykotische Cremes, Shampoos, orale Antimykotika",
+          "pmhLocation": "Rumpf (Brust, Ruecken)",
+          "pvLocation": "Rumpf, Nacken, Oberarme — bevorzugt seborrhoische Bereiche, schlimmer bei Waerme/Feuchtigkeit",
+          "quickRule": "PMH = helle Flecken ohne Schuppung. PV = helle oder dunkle Flecken mit feiner Schuppung."
+        }
+      },
+      "mycosis": {
+        "name": "Mycosis Fungoides",
+        "type": "Selten — Lymphom",
+        "desc": "Sehr selten, aber wichtig auszuschliessen. Dies ist ein fruehes kutanes T-Zell-Lymphom, das PV mit flachen, verfaerbten Flecken imitieren kann. Flecken neigen dazu, an festen Stellen zu bleiben und sprechen nicht auf antimykotische Behandlung an. Eine Biopsie ist zur Diagnose erforderlich. Wenn deine Flecken trotz konsequenter Behandlung nie verschwinden, erwaehne das bei deinem Arzt.",
+        "key": "Feste Flecken, kein Ansprechen auf Antimykotika — Biopsie noetig"
+      }
+    },
+    "diagnostics": {
+      "title": "Wie du Klarheit bekommst",
+      "koh": {
+        "name": "KOH-Test",
+        "desc": "Hautabstrich aufgeloest in Kalilauge zeigt Pilzelemente unter dem Mikroskop. PV zeigt das charakteristische 'Spaghetti-und-Hackbaellchen'-Muster. Schnell und zuverlaessig, wenn richtig durchgefuehrt."
+      },
+      "wood": {
+        "name": "Wood-Lampe (UV-Licht)",
+        "desc": "PV fluoresziert gelb-gruen unter UV-Licht. Vitiligo erscheint strahlend weiss. Nicht 100% zuverlaessig allein, aber nuetzlich als schnelles Screening."
+      },
+      "biopsy": {
+        "name": "Hautbiopsie",
+        "desc": "Der Goldstandard bei unklaren Faellen. Selten noetig bei typischer PV, aber wichtig wenn Laesionen nicht auf Behandlung ansprechen — besonders um Mycosis Fungoides auszuschliessen."
+      },
+      "culture": {
+        "name": "Pilzkultur",
+        "desc": "Kann die genaue Pilzart identifizieren. Malassezia ist beruechtigterweise schwer zu kultivieren (braucht spezielle lipidangereicherte Medien), daher wird dies bei PV selten gemacht."
+      }
+    },
+    "advice": {
+      "title": "Mein Rat",
+      "text": "Akzeptiere eine Diagnose nicht einfach — besonders wenn die Behandlung nicht wirkt. Frage deinen Dermatologen, welche spezifischen Tests durchgefuehrt wurden und was sie ergeben haben. Erwaege eine Zweitmeinung von einem auf Pilzinfektionen spezialisierten Dermatologen. Und wenn deine Erkrankung der Standardbehandlung seit Jahren widersteht, draenge auf eine Biopsie, um andere Moeglichkeiten auszuschliessen."
+    }
   }
 }

@@ -1,5 +1,5 @@
 import { Container, Title, Text, Stack, Paper, Divider, ThemeIcon, Group, List } from '@mantine/core';
-import { IconBook, IconBodyScan, IconMoodSad, IconBulb } from '@tabler/icons-react';
+import { IconBook, IconBodyScan, IconMoodSad, IconBulb, IconHeart } from '@tabler/icons-react';
 import { useTranslation } from 'react-i18next';
 
 function Section({ icon: Icon, title, children }) {
@@ -53,6 +53,15 @@ export default function Story() {
           <Text>{t('story.discovery.text')}</Text>
           <Paper p="sm" radius="sm" bg="var(--mantine-color-violet-light)">
             <Text size="sm" fw={500}>{t('story.discovery.message')}</Text>
+          </Paper>
+        </Section>
+
+        <Section icon={IconHeart} title={t('story.perspective.title')}>
+          <Text>{t('story.perspective.text')}</Text>
+          <Text>{t('story.perspective.stress')}</Text>
+          <Text>{t('story.perspective.growth')}</Text>
+          <Paper p="sm" radius="sm" bg="var(--mantine-color-violet-light)">
+            <Text size="sm" fw={500}>{t('story.perspective.message')}</Text>
           </Paper>
         </Section>
       </Stack>

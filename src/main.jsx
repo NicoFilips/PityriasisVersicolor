@@ -7,6 +7,7 @@ import './styles/global.css';
 import './i18n';
 import theme from './theme';
 import App from './App';
+import Search from './components/Search';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -14,6 +15,7 @@ createRoot(document.getElementById('root')).render(
       <HashRouter>
         <MantineProvider theme={theme} defaultColorScheme="auto">
           <App />
+          <Search />
         </MantineProvider>
       </HashRouter>
     </Suspense>
