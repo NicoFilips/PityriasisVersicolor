@@ -13,7 +13,10 @@
   },
   "footer": {
     "disclaimer": "This website reflects personal experiences and research. I am not a medical professional. Always consult a dermatologist for diagnosis and treatment.",
-    "copyright": "{{year}} Pityriasis Versicolor — A personal project by Nico"
+    "copyright": "{{year}} Pityriasis Versicolor — A personal project by Nico",
+    "contact": "Have questions, tips, or your own experience to share? I'd love to hear from you.",
+    "email": "Send me an email",
+    "linkedin": "Connect on LinkedIn"
   },
   "home": {
     "heroTitle": "Living with Pityriasis Versicolor",
