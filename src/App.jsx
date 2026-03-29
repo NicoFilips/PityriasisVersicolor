@@ -6,6 +6,7 @@ import Disease from './pages/Disease';
 import Treatments from './pages/Treatments';
 import Research from './pages/Research';
 import GutSkin from './pages/GutSkin';
+import Misdiagnosis from './pages/Misdiagnosis';
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
         <Route path="treatments" element={<Treatments />} />
         <Route path="research" element={<Research />} />
         <Route path="gut-skin" element={<GutSkin />} />
+        <Route path="misdiagnosis" element={<Misdiagnosis />} />
       </Route>
     </Routes>
   );

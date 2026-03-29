@@ -8,6 +8,7 @@ const sections = [
   { key: 'treatments', to: '/treatments', icon: '💊' },
   { key: 'research', to: '/research', icon: '📚' },
   { key: 'gutSkin', to: '/gut-skin', icon: '🧬' },
+  { key: 'misdiagnosis', to: '/misdiagnosis', icon: '🔍' },
 ];
 
 export default function Home() {

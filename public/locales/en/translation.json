@@ -9,7 +9,8 @@
     "disease": "Understanding PV",
     "treatments": "Treatments",
     "research": "Research & Studies",
-    "gutSkin": "Gut-Skin Axis"
+    "gutSkin": "Gut-Skin Axis",
+    "misdiagnosis": "Is it really PV?"
   },
   "footer": {
     "disclaimer": "This website reflects personal experiences and research. I am not a medical professional. Always consult a dermatologist for diagnosis and treatment.",
@@ -45,12 +46,37 @@
       "gutSkin": {
         "title": "Gut-Skin Axis",
         "text": "The emerging connection between gut health and skin conditions — and what you can try."
+      },
+      "misdiagnosis": {
+        "title": "Is It Really PV?",
+        "text": "Misdiagnosis is common. Learn about conditions that look similar and how to get the right diagnosis."
       }
     }
   },
   "story": {
     "title": "My Story",
-    "intro": "Content coming soon — this page will share my personal journey with Pityriasis Versicolor over the past 8 years."
+    "intro": "Living with Pityriasis Versicolor for over 8 years has been a journey of trial, error, frustration, and learning. This is my personal experience — not medical advice, but an honest account that might help you feel less alone.",
+    "beginning": {
+      "title": "How It Started",
+      "text": "I first noticed discolored patches on my skin about 8 years ago. What started as a few spots gradually spread to cover large areas of my body. Multiple dermatologists confirmed the diagnosis of Pityriasis Versicolor through skin scrapes, though I've since learned that misdiagnosis with similar conditions is surprisingly common."
+    },
+    "affected": {
+      "title": "Affected Areas",
+      "chest": "My chest is the worst — especially under the chest area. This is where outbreaks are most intense and visible.",
+      "back": "My back is moderately affected — more intense than my arms, with some noticeable flaking.",
+      "mild": "Upper arms, groin area, and scalp are mildly affected — barely noticeable with very little flaking.",
+      "pattern": "The rashes appear in circular patterns, mostly brown/red in color. They become significantly more intense after consuming carbohydrates or alcohol."
+    },
+    "struggle": {
+      "title": "The Daily Struggle",
+      "text": "In 7-8 years, I have never once managed to fully clear the affected areas — no matter how hard I worked at it. After bad outbreaks, triggered by too many carbs, wheat, or alcohol, I sometimes scratch my skin until it bleeds. It's not just a cosmetic issue — it affects your quality of life, your confidence, and your daily decisions.",
+      "itching": "Interestingly, the itching is usually minimal and improves as the overall symptoms get better."
+    },
+    "discovery": {
+      "title": "What I've Learned",
+      "text": "The biggest discovery has been the connection between diet and my symptoms. A strict ketogenic diet — completely eliminating carbohydrates — is the only thing that has made a real, visible difference. This led me down the path of investigating the gut-skin connection, Candida, and the role of the immune system in managing this condition.",
+      "message": "If you're reading this and struggling with the same thing — you're not alone. This website is my attempt to compile everything I've learned so it might help someone else find their path to better skin health."
+    }
   },
   "disease": {
     "title": "Understanding Pityriasis Versicolor",
@@ -89,14 +115,235 @@
   },
   "treatments": {
     "title": "Treatments",
-    "intro": "Content coming soon — this page will cover various treatment options and what has worked for me."
+    "intro": "An overview of what I've tried over 8 years — from prescription antifungals to supplements and lifestyle changes. Everyone responds differently, but this is what my regimen looks like.",
+    "topical": {
+      "title": "Topical Treatments",
+      "ketoconazole": {
+        "name": "Ketoconazole Shower Gel",
+        "desc": "Antifungal wash used regularly during showers. One of the standard treatments for PV — it kills the Malassezia yeast on contact."
+      },
+      "nizoral": {
+        "name": "Nizoral Cream",
+        "desc": "Ketoconazole-based cream applied directly to affected areas. Useful for targeted treatment of visible patches."
+      }
+    },
+    "oral": {
+      "title": "Oral Antifungals",
+      "text": "Prescription antimycotic tablets taken orally. These attack the fungus systemically from the inside. Prescribed by my dermatologist as part of the treatment strategy."
+    },
+    "supplements": {
+      "title": "Supplements",
+      "zinc": {
+        "name": "Zinc",
+        "desc": "Essential for skin health and immune function. Supports the skin's natural defense against fungal overgrowth."
+      },
+      "probiotics": {
+        "name": "Probiotics",
+        "desc": "2-4 capsules daily to support gut flora. A healthy gut microbiome is linked to better immune response and skin health."
+      },
+      "inulin": {
+        "name": "Inulin",
+        "desc": "Prebiotic fiber that feeds beneficial gut bacteria, helping probiotics colonize and thrive."
+      },
+      "spirulina": {
+        "name": "Spirulina",
+        "desc": "Nutrient-dense algae supplement for immune system support."
+      },
+      "omega3": {
+        "name": "Omega 3",
+        "desc": "Anti-inflammatory fatty acids that may help reduce the skin's inflammatory response to fungal overgrowth."
+      },
+      "chia": {
+        "name": "Chia Seeds",
+        "desc": "Another prebiotic source to support probiotic colonization in the gut."
+      },
+      "garlic": {
+        "name": "Garlic Capsules",
+        "desc": "Natural antifungal properties. Allicin in garlic has been shown to inhibit fungal growth."
+      }
+    },
+    "diet": {
+      "title": "Diet — The Biggest Factor",
+      "text": "After years of trying everything, the single most effective treatment has been dietary change. A strict ketogenic diet with complete elimination of carbohydrates is the only thing that produces significant, visible improvement.",
+      "why": "Why does this work? Fungi like Malassezia and Candida feed on sugars. By cutting off their food supply through carb elimination, you starve them. The improvement is noticeable within weeks.",
+      "challenge": "The challenge: maintaining a strict keto diet long-term is extremely difficult, especially with intense sugar cravings that seem to get worse once you start eating carbs again."
+    },
+    "triggers": {
+      "title": "Known Triggers",
+      "carbs": "Excessive carbohydrate consumption, especially wheat — causes visible intensification of patches",
+      "alcohol": "Alcohol consumption — significantly worsens the color and spread of rashes",
+      "sugar": "Sugar — creates a vicious cycle of cravings that makes it hard to stay on the antifungal diet",
+      "hygiene": "Skipping showers — outbreaks worsen noticeably without regular cleansing"
+    },
+    "honest": {
+      "title": "An Honest Assessment",
+      "text": "Despite 7-8 years of consistent treatment — topical, oral, supplements, and diet — I have never fully cleared the affected areas. This is a chronic condition that requires ongoing management, not a one-time fix. But the combination of all these approaches together does keep it more manageable than any single treatment alone."
+    }
   },
   "research": {
     "title": "Research & Studies",
-    "intro": "Content coming soon — this page will link to scientific studies with plain-language summaries."
+    "intro": "A collection of research topics and questions I'm actively investigating. As I find relevant studies and answers, I'll add them here with plain-language summaries.",
+    "misdiagnosis": {
+      "title": "Misdiagnosis Concerns",
+      "text": "Multiple dermatologists diagnosed me with PV through skin scrapes. However, online sources frequently report that misdiagnosis is common with fungal skin conditions. Conditions like eczema, vitiligo, and other fungal infections can look similar. Learning to differentiate between these conditions is an ongoing research area for me."
+    },
+    "dietFungal": {
+      "title": "Diet & Fungal Infections",
+      "text": "There's growing evidence that carbohydrate and sugar intake directly influence fungal growth on the skin and in the gut. My personal experience strongly supports this — a ketogenic diet is the most effective intervention I've found. I'm looking for clinical studies that confirm or explain this mechanism."
+    },
+    "probioticsSkin": {
+      "title": "Probiotics & Skin Health",
+      "text": "Can probiotic supplementation improve fungal skin conditions? Which specific strains are most effective? This is an area where anecdotal evidence is ahead of clinical research, but promising studies are emerging."
+    },
+    "immuneSystem": {
+      "title": "Immune System & Susceptibility",
+      "text": "Nearly everyone carries Malassezia yeast on their skin, yet only some develop Pityriasis Versicolor. Understanding what weakens local skin immunity — and why certain people are predisposed — could be key to finding better treatments."
+    },
+    "communityNote": {
+      "title": "Community Knowledge",
+      "text": "Some of the most practical insights come from online communities — Reddit, forums, and support groups — where people share what actually worked for them. While not peer-reviewed, these real-world experiences often point research in the right direction."
+    }
   },
   "gutSkin": {
     "title": "Gut-Skin Axis",
-    "intro": "Content coming soon — this page will explore the connection between gut health and skin conditions."
+    "intro": "One of the most important discoveries in my journey: the connection between what's happening in your gut and what shows up on your skin.",
+    "connection": {
+      "title": "The Gut-Skin Connection",
+      "text": "Your gut and skin are more connected than most people realize. An imbalanced gut microbiome (dysbiosis) can weaken both local and systemic immunity, potentially allowing fungal overgrowth — both in the gut (Candida) and on the skin (Malassezia). Addressing gut health may be just as important as topical treatments."
+    },
+    "candida": {
+      "title": "The Candida Hypothesis",
+      "text": "I increasingly suspect that Candida albicans — a yeast that can overgrow in the gut — plays a significant role in my skin condition. Here's what points in that direction:",
+      "evidence1": "Intense sugar cravings — especially once you start eating sugar, it becomes almost impossible to resist. Candida is known to drive sugar cravings as it feeds on it.",
+      "evidence2": "Prior antibiotic use — antibiotics kill beneficial gut bacteria, creating space for Candida to overgrow.",
+      "evidence3": "Ketogenic diet massively improves skin symptoms — Candida starves without carbohydrates.",
+      "evidence4": "Despite 7-8 years of treatment, the fungus cannot be fully eradicated — suggesting a systemic, not just topical, problem.",
+      "evidence5": "Numerous online reports from others who resolved their skin issues by treating gut Candida."
+    },
+    "pvCandida": {
+      "title": "PV, Candida & The Immune System",
+      "text": "Both Pityriasis Versicolor (Malassezia on the skin) and Candida (in the gut) are fungal conditions. A weakened immune system could allow both to thrive simultaneously. Carbohydrate and sugar intake feeds both fungi at the same time, which might explain why dietary changes have such a dramatic effect on skin symptoms."
+    },
+    "strategy": {
+      "title": "My Current Gut Health Strategy",
+      "probiotics": "Probiotics — 2-4 capsules daily to restore beneficial gut bacteria",
+      "prebiotics": "Prebiotics — Inulin and chia seeds to feed and support probiotic colonization",
+      "spirulina": "Spirulina — for immune system support",
+      "garlic": "Garlic capsules — natural antifungal properties (allicin)",
+      "omega3": "Omega 3 — anti-inflammatory support",
+      "diet": "Ketogenic diet — starving the fungi by eliminating their primary food source"
+    },
+    "tryThis": {
+      "title": "What You Can Try",
+      "text": "If you're dealing with persistent PV that doesn't respond well to topical treatments alone, consider looking at your gut health. These steps have helped me:",
+      "step1": "Start with probiotics and prebiotics to support your gut flora",
+      "step2": "Reduce sugar and refined carbohydrate intake as much as possible",
+      "step3": "Consider getting tested for Candida overgrowth (stool test)",
+      "step4": "Look into natural antifungals like garlic alongside medical treatment",
+      "step5": "Be patient — gut restoration takes time, but the skin improvements can be significant"
+    }
+  },
+  "misdiagnosis": {
+    "title": "Is It Really Pityriasis Versicolor?",
+    "intro": "Misdiagnosis is more common than you'd think. Several skin conditions look similar to PV. Understanding the differences can help you have better conversations with your dermatologist — or push for a second opinion.",
+    "important": {
+      "title": "Why This Matters",
+      "text": "If standard PV treatment hasn't worked after years of consistent effort, it's worth asking: is the diagnosis correct? Multiple dermatologists confirmed my PV diagnosis through skin scrapes, but online forums are full of stories about misdiagnosis. Being informed about similar conditions helps you advocate for yourself."
+    },
+    "conditions": {
+      "vitiligo": {
+        "name": "Vitiligo",
+        "type": "Autoimmune",
+        "desc": "Autoimmune destruction of melanocytes causes complete loss of pigment. Patches are pure white — not just lighter like PV. Usually symmetrical, no flaking or scaling. KOH test is negative.",
+        "key": "Pure white patches, symmetrical, no scaling"
+      },
+      "alba": {
+        "name": "Pityriasis Alba",
+        "type": "Eczema-related",
+        "desc": "Common in children and young adults with atopic (eczema-prone) skin. Pale, slightly scaly patches mostly on the face with less defined borders than PV. Not fungal — related to dry skin. Usually resolves on its own.",
+        "key": "Mostly face, children, vague borders, self-resolving"
+      },
+      "rosea": {
+        "name": "Pityriasis Rosea",
+        "type": "Possibly viral",
+        "desc": "Starts with a single 'herald patch' then spreads. Oval patches follow skin lines in a 'Christmas tree pattern' on the back. Self-limiting — resolves in 6-8 weeks. Possibly viral, not fungal. Can look similar to PV rubra.",
+        "key": "Herald patch first, Christmas tree pattern, resolves in weeks"
+      },
+      "tinea": {
+        "name": "Tinea Corporis (Ringworm)",
+        "type": "Fungal (different species)",
+        "desc": "Also fungal, but caused by dermatophytes — not Malassezia. Classic ring-shaped lesions with raised, scaly borders and a clearing center. PV is flat without the ring pattern. More itchy than PV and responds to different antifungals.",
+        "key": "Ring-shaped with raised borders, more itchy"
+      },
+      "seborrheic": {
+        "name": "Seborrheic Dermatitis",
+        "type": "Fungal (same yeast family)",
+        "desc": "Also caused by Malassezia — the same family of yeast as PV! But with yellowish, greasy scales instead of fine dry ones. Concentrated on face, scalp, eyebrows, and nasolabial folds. More inflammatory and itchy. Can actually coexist with PV.",
+        "key": "Greasy yellow scales, face/scalp, more inflammatory"
+      },
+      "contact": {
+        "name": "Contact Dermatitis",
+        "type": "Allergic / Irritant",
+        "desc": "Caused by irritants or allergens, not fungal at all. Red, itchy, sometimes blistering. The pattern follows exposure to the irritant. Resolves when the trigger is removed.",
+        "key": "Follows exposure pattern, resolves when trigger removed"
+      },
+      "hypopigmentation": {
+        "name": "Post-Inflammatory Hypopigmentation",
+        "type": "Skin response",
+        "desc": "Lightened skin left behind after inflammation or injury heals. There's always a history of prior trauma, burn, or rash in that area. No active scaling — just melanocyte damage from a previous event. Not fungal.",
+        "key": "History of prior skin damage, no active scaling"
+      },
+      "pmh": {
+        "name": "Progressive Macular Hypomelanosis (PMH)",
+        "type": "Bacterial",
+        "desc": "Multiple light-colored patches, usually on the trunk. Spots are poorly defined, often merge together, and are NOT scaly. Usually asymptomatic — no itching, no pain. Seen mostly in teenagers and young adults. Caused by Cutibacterium acnes (a bacterium), NOT a fungal infection — so antifungal treatments won't work. Treatment involves UV phototherapy, benzoyl peroxide, or antibiotics.",
+        "key": "Light patches WITHOUT scale, no itch, bacterial — antifungals won't help",
+        "comparison": {
+          "title": "PMH vs. Pityriasis Versicolor",
+          "pmhColor": "Only lighter patches",
+          "pvColor": "Lighter OR darker patches",
+          "pmhScale": "No scaling at all",
+          "pvScale": "Fine, visible scaling",
+          "pmhItch": "No itch, no pain (asymptomatic)",
+          "pvItch": "Usually mild itch possible",
+          "pmhCause": "Cutibacterium acnes (bacteria)",
+          "pvCause": "Malassezia furfur (fungus)",
+          "pmhTreatment": "UV phototherapy, benzoyl peroxide, antibiotics",
+          "pvTreatment": "Antifungal creams, shampoos, oral antifungals",
+          "pmhLocation": "Trunk (chest, back)",
+          "pvLocation": "Trunk, neck, upper arms — favors seborrheic areas, worse in warm/humid conditions",
+          "quickRule": "PMH = light patches without scale. PV = light or dark patches with fine scale."
+        }
+      },
+      "mycosis": {
+        "name": "Mycosis Fungoides",
+        "type": "Rare — Lymphoma",
+        "desc": "Very rare but important to rule out. This is an early-stage cutaneous T-cell lymphoma that can mimic PV with flat, discolored patches. Patches tend to be fixed in location and don't respond to antifungal treatment. A biopsy is needed to diagnose. If your patches never clear despite consistent treatment, mention this to your doctor.",
+        "key": "Fixed patches, no response to antifungals — needs biopsy"
+      }
+    },
+    "diagnostics": {
+      "title": "How to Get Clarity",
+      "koh": {
+        "name": "KOH Test",
+        "desc": "Skin scraping dissolved in potassium hydroxide reveals fungal elements under microscope. PV shows the characteristic 'spaghetti and meatballs' pattern. Quick and reliable when done properly."
+      },
+      "wood": {
+        "name": "Wood's Lamp (UV Light)",
+        "desc": "PV fluoresces yellow-green under UV light. Vitiligo appears bright white. Not 100% reliable on its own, but useful as a quick screening tool."
+      },
+      "biopsy": {
+        "name": "Skin Biopsy",
+        "desc": "The gold standard for uncertain cases. Rarely needed for typical PV, but important if lesions don't respond to treatment — especially to rule out mycosis fungoides."
+      },
+      "culture": {
+        "name": "Fungal Culture",
+        "desc": "Can identify the exact fungal species. Malassezia is notoriously difficult to culture (needs special lipid-enriched media), so this isn't commonly done for PV."
+      }
+    },
+    "advice": {
+      "title": "My Advice",
+      "text": "Don't just accept a diagnosis at face value — especially if treatment isn't working. Ask your dermatologist which specific tests they performed and what they found. Consider a second opinion from a dermatologist who specializes in fungal infections. And if your condition has resisted standard treatment for years, push for a biopsy to rule out other possibilities."
+    }
   }
 }

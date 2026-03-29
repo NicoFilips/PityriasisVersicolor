@@ -1,16 +1,36 @@
-# React + Vite
+# Pityriasis Versicolor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal website dedicated to understanding, treating, and living with Pityriasis Versicolor — a common fungal skin condition caused by Malassezia yeast.
 
-Currently, two official plugins are available:
+**Live site:** [nicofilips.github.io/PityriasisVersicolor](https://nicofilips.github.io/PityriasisVersicolor/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## About
 
-## React Compiler
+After 8 years of dealing with this condition, I've accumulated a lot of knowledge — from dermatologist visits and scientific studies to personal experiments and community insights. This site is my way of sharing that knowledge with others who are going through the same thing.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**I am not a medical professional.** This website reflects personal experiences and research. Always consult a dermatologist for diagnosis and treatment.
 
-## Expanding the ESLint configuration
+## What's on the site
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **My Story** — Personal journey with PV over 8 years
+- **Understanding PV** — How the disease works, causes, and triggers
+- **Treatments** — Antifungals, supplements, diet, and what actually helps
+- **Research & Studies** — Topics I'm actively investigating
+- **Gut-Skin Axis** — The connection between gut health and skin conditions
+- **Is it really PV?** — Misdiagnosis guide with conditions that look similar, including a PMH vs. PV comparison
+
+## Tech stack
+
+- React 19 + Vite
+- Mantine UI (purple theme, dark/light mode)
+- react-i18next (English, German prepared)
+- HashRouter for GitHub Pages compatibility
+- Deployed via GitHub Actions
+
+## Knowledge base
+
+The `/knowledge/` folder contains my personal notes — things I've tried, studies I've found, questions I'm investigating. These are not rendered on the website but serve as the source material for building out content.
+
+## Get in touch
+
+If you're dealing with PV and want to exchange experiences or tips, you can find my contact details on the website.

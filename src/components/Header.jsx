@@ -20,6 +20,7 @@ import {
   IconPill,
   IconFileSearch,
   IconHeartbeat,
+  IconZoomQuestion,
 } from '@tabler/icons-react';
 import ThemeToggle from './ThemeToggle';
 import LanguageSwitcher from './LanguageSwitcher';
@@ -31,6 +32,7 @@ const navItems = [
   { key: 'treatments', to: '/treatments', icon: IconPill },
   { key: 'research', to: '/research', icon: IconFileSearch },
   { key: 'gutSkin', to: '/gut-skin', icon: IconHeartbeat },
+  { key: 'misdiagnosis', to: '/misdiagnosis', icon: IconZoomQuestion },
 ];
 
 function NavItem({ to, label, icon: Icon, active, onClick }) {
