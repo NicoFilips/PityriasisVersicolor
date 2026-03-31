@@ -41,6 +41,13 @@ Currently suspecting a **Candida albicans infection** in addition to or instead 
 - Meta-Analyse fand für Joghurt/Käse teils keine klare Assoziation mit Hautproblemen
 - **Relevanz für PV:** Wenn Milch Talgproduktion/Lipidprofil verändert → könnte Malassezia-Wachstum begünstigen
 
+## Personal Observation — Food Triggers
+<!-- added via add-knowledge, 2026-03-31 -->
+
+- Eating trigger foods causes itching within ~10–15 minutes
+- Itching persists for several hours once triggered
+- Fast onset suggests direct gut → skin signaling, consistent with yeast feeding/immune response hypothesis
+
 ## TODO
 - Get tested for Candida albicans (stool test?)
 - Research Candida-specific antifungal treatments (oral)
