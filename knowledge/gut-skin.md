@@ -33,6 +33,14 @@ Currently suspecting a **Candida albicans infection** in addition to or instead 
 - Omega 3 (anti-inflammatory)
 - Ketogenic diet
 
+## Dairy & Lipidprofil → Malassezia-Milieu
+<!-- added via add-knowledge, 2026-03-31 -->
+
+- Mehr Talg + ggf. veränderte Lipidprofile → besseres Milieu für Malassezia (lipid-dependent). Nicht bewiesen als PV-Kausalität, aber biologisch konsistent.
+- „Dairy ist nicht gleich dairy": Milch (v.a. fettarm) scheint in Akne-Studien häufiger problematisch als Joghurt/Käse
+- Meta-Analyse fand für Joghurt/Käse teils keine klare Assoziation mit Hautproblemen
+- **Relevanz für PV:** Wenn Milch Talgproduktion/Lipidprofil verändert → könnte Malassezia-Wachstum begünstigen
+
 ## TODO
 - Get tested for Candida albicans (stool test?)
 - Research Candida-specific antifungal treatments (oral)
