@@ -9,7 +9,7 @@ import theme from './theme';
 import App from './App';
 import Search from './components/Search';
 
-createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Suspense fallback={null}>
       <HashRouter>

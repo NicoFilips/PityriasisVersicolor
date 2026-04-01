@@ -1,7 +1,16 @@
 import { Card, Text, Title, Stack, ThemeIcon } from '@mantine/core';
 import { Link } from 'react-router-dom';
+import { ComponentType } from 'react';
 
-export default function SectionCard({ to, icon: Icon, title, text, className }) {
+interface SectionCardProps {
+  to: string;
+  icon: ComponentType<{ size: number }>;
+  title: string;
+  text: string;
+  className?: string;
+}
+
+export default function SectionCard({ to, icon: Icon, title, text, className }: SectionCardProps) {
   return (
     <Card
       component={Link}

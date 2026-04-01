@@ -1,7 +1,12 @@
-import { Paper } from '@mantine/core';
-import { useState } from 'react';
+import { Paper, PaperProps } from '@mantine/core';
+import { ReactNode, useState } from 'react';
 
-export default function HoverPaper({ children, className, ...props }) {
+interface HoverPaperProps extends PaperProps {
+  children: ReactNode;
+  className?: string;
+}
+
+export default function HoverPaper({ children, className, ...props }: HoverPaperProps) {
   const [hovered, setHovered] = useState(false);
 
   return (

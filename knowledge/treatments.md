@@ -2,10 +2,11 @@
 
 Personal notes on treatments for Pityriasis Versicolor (also known as Tinea Versicolor / Kleienpilzflechte). Not rendered on the website.
 
-## Current Regimen (as of March 2026)
+## Current Regimen (as of April 2026)
 
 ### Topical
-- **Ketoconazole shower gel (Ketazolin 2%)** — antifungal wash, 1x mornings daily
+- **Ketoconazole shower gel (Ketazolin 2%)** — antifungal wash, used as often as possible
+- **Ketoconazole cream (Ketazolin)** — applied to affected areas, used as often as possible
 - **Nizoral 2% cream** — ketoconazole-based cream, applied to affected areas
 - **pH-neutral shower gel (Balea)** — used as base shower gel to not irritate skin
 
@@ -20,6 +21,14 @@ Personal notes on treatments for Pityriasis Versicolor (also known as Tinea Vers
 - **Omega 3** — anti-inflammatory
 - **Chia seeds** — prebiotic, helps probiotics settle
 - **Garlic capsules** (from DM) — natural antifungal properties
+
+### Daily Hygiene Routine
+<!-- added via add-knowledge, 2026-04-01 -->
+- Shower **twice a day**
+- Change clothes **twice a day** — never re-wear between washes
+- Change bedsheets frequently
+- Change towels frequently
+- Use Ketozolin shampoo and cream as often as possible
 
 ### To Try
 - **Tea tree oil** — natural antifungal, see if topical application helps
@@ -168,8 +177,41 @@ Source: YouTube commenter with long-term recurring TV that flares every summer. 
 ### Questions / To Research
 - Is rotating antifungal products more effective than consistent single-product use?
 - Clotrimazole vs ketoconazole — is one better for TV?
-- Is tolnaftate effective against Malassezia specifically? (It's typically for dermatophytes)
-- Borax in laundry — is this actually antifungal or just marketing?
+- ~~Tolnaftate~~ — NOT effective against Malassezia, only for dermatophytes. Not relevant for PV.
+- ~~Borax in laundry~~ — not relevant for PV treatment.
+
+## Treatment Ratings (Personal Experience)
+<!-- added via add-knowledge, 2026-04-01 -->
+
+### Topical — Tried
+- **Ketoconazole shower gel (Ketazolin 2%)** — ?/5 — ...
+- **Nizoral 2% cream** — ?/5 — ...
+- **pH-neutral shower gel (Balea)** — ?/5 — ...
+
+### Oral — Tried
+- **Antifungal tablets (antimycotics)** — ?/5 — ...
+
+### Supplements — Tried
+- **Zinc** — ?/5 — ...
+- **Probiotics** — ?/5 — ...
+- **Inulin** — ?/5 — ...
+- **Spirulina** — ?/5 — ...
+- **Omega 3** — ?/5 — ...
+- **Chia seeds** — ?/5 — ...
+- **Garlic capsules** — ?/5 — ...
+
+### Lifestyle — Tried
+- **Ketogenic diet** — ?/5 — ...
+- **Frequent fabric changes** — ?/5 — ...
+- **Reduced coffee** — ?/5 — ...
+
+### Planned / To Try
+- Tea tree oil
+- Salicylic acid
+- Sulfur soap / neem soap
+- Zinc pyrithione shampoo (scalp treatment)
+- Candida-specific diet protocol
+- Hygienespüler in the washing machine — sanitize fabrics to reduce fungal load
 
 ## TODO
 - Try zinc pyrithione shampoo for scalp (treat scalp as reservoir)

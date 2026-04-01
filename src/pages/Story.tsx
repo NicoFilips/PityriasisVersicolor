@@ -2,8 +2,16 @@ import { Container, Title, Text, Stack, Paper, Divider, ThemeIcon, Group, List }
 import { IconBook, IconBodyScan, IconMoodSad, IconBulb, IconHeart } from '@tabler/icons-react';
 import { useTranslation } from 'react-i18next';
 import HoverPaper from '../components/HoverPaper';
+import { ComponentType, ReactNode } from 'react';
 
-function Section({ icon: Icon, title, children, delay = 0 }) {
+interface SectionProps {
+  icon: ComponentType<{ size: number }>;
+  title: string;
+  children: ReactNode;
+  delay?: number;
+}
+
+function Section({ icon: Icon, title, children, delay = 0 }: SectionProps) {
   return (
     <HoverPaper p="lg" radius="md" withBorder className={`reveal reveal-delay-${delay}`}>
       <Stack gap="md">

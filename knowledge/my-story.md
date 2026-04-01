@@ -69,3 +69,9 @@ Personal observations, experiences, and symptom patterns with Pityriasis Versico
 - Standard PV treatment hasn't worked in 7-8 years — is the diagnosis fully correct?
 - Could it be PMH instead of or in addition to PV?
 - Want to learn to better self-assess differential diagnosis
+
+## Motivation for This Website
+<!-- added via add-knowledge, 2026-04-01 -->
+- Visited numerous doctors and dermatologists — none could provide lasting help
+- Sought additional advice online and from other people dealing with the condition
+- Built this website to stop having to explain the same story over and over — a single reference point for everything known about the case

@@ -2,6 +2,7 @@ import { Container, Title, Text, Stack, Paper, Divider, ThemeIcon, Group, Badge,
 import { IconAlertTriangle, IconStethoscope, IconHeart, IconArrowsExchange } from '@tabler/icons-react';
 import { useTranslation } from 'react-i18next';
 import HoverPaper from '../components/HoverPaper';
+import { TFunction } from 'i18next';
 
 const conditions = [
   { key: 'vitiligo', color: 'blue' },
@@ -17,7 +18,13 @@ const conditions = [
 
 const diagnostics = ['koh', 'wood', 'biopsy', 'culture'];
 
-function ConditionCard({ conditionKey, color, t }) {
+interface ConditionCardProps {
+  conditionKey: string;
+  color: string;
+  t: TFunction;
+}
+
+function ConditionCard({ conditionKey, color, t }: ConditionCardProps) {
   return (
     <HoverPaper p="lg" radius="md" withBorder>
       <Stack gap="sm">

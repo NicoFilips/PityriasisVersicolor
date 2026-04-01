@@ -7,7 +7,6 @@ import {
   UnstyledButton,
   Text,
   Container,
-  Divider,
   Box,
 } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
@@ -25,6 +24,15 @@ import {
 import ThemeToggle from './ThemeToggle';
 import LanguageSwitcher from './LanguageSwitcher';
 import { SearchButton } from './Search';
+import { ComponentType } from 'react';
+
+interface NavItemProps {
+  to: string;
+  label: string;
+  icon: ComponentType<{ size: number; stroke: number }>;
+  active: boolean;
+  onClick?: () => void;
+}
 
 const navItems = [
   { key: 'home', to: '/', icon: IconHome },
@@ -36,7 +44,7 @@ const navItems = [
   { key: 'misdiagnosis', to: '/misdiagnosis', icon: IconZoomQuestion },
 ];
 
-function NavItem({ to, label, icon: Icon, active, onClick }) {
+function NavItem({ to, label, icon: Icon, active, onClick }: NavItemProps) {
   return (
     <UnstyledButton
       component={Link}
@@ -69,7 +77,7 @@ function NavItem({ to, label, icon: Icon, active, onClick }) {
   );
 }
 
-function MobileNavItem({ to, label, icon: Icon, active, onClick }) {
+function MobileNavItem({ to, label, icon: Icon, active, onClick }: NavItemProps) {
   return (
     <UnstyledButton
       component={Link}
@@ -104,14 +112,11 @@ export default function Header() {
     <Box component="header" style={{ borderBottom: '1px solid var(--mantine-color-default-border)' }}>
       <Container size="lg" py="md">
         <Group justify="space-between">
-          <Title
-            order={3}
-            component={Link}
-            to="/"
-            style={{ textDecoration: 'none', color: 'inherit' }}
-          >
-            {t('site.title')}
-          </Title>
+          <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
+            <Title order={3}>
+              {t('site.title')}
+            </Title>
+          </Link>
 
           <Group gap="sm" visibleFrom="sm">
             <SearchButton />

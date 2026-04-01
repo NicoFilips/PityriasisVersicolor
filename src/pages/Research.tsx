@@ -2,8 +2,17 @@ import { Container, Title, Text, Stack, Divider, ThemeIcon, Group, Badge } from 
 import { IconAlertCircle, IconSalad, IconVirus, IconShield, IconUsers } from '@tabler/icons-react';
 import { useTranslation } from 'react-i18next';
 import HoverPaper from '../components/HoverPaper';
+import { ComponentType } from 'react';
 
-function ResearchTopic({ icon: Icon, title, text, status, delay = 0 }) {
+interface ResearchTopicProps {
+  icon: ComponentType<{ size: number }>;
+  title: string;
+  text: string;
+  status: 'investigating' | 'collecting';
+  delay?: number;
+}
+
+function ResearchTopic({ icon: Icon, title, text, status, delay = 0 }: ResearchTopicProps) {
   return (
     <HoverPaper p="lg" radius="md" withBorder className={`reveal reveal-delay-${delay}`}>
       <Stack gap="md">
