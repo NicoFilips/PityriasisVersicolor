@@ -70,6 +70,14 @@ Personal observations, experiences, and symptom patterns with Pityriasis Versico
 - Could it be PMH instead of or in addition to PV?
 - Want to learn to better self-assess differential diagnosis
 
+## Dermatology Report
+<!-- added via add-knowledge, 2026-04-01 -->
+- **Mycologically confirmed PV** — hyphae and spores in clusters ("Spaghetti and meatballs" / "Hyphen und Sporen in Haufen")
+- Clinically consistent presentation, extensive spread
+- Diagnosed with **pronounced Xerosis cutis** — skin barrier collapse / severe dryness
+- PV classified as a condition with **high relapse tendency** (hohe Rezidivneigung)
+- Source: personal dermatology report
+
 ## Motivation for This Website
 <!-- added via add-knowledge, 2026-04-01 -->
 - Visited numerous doctors and dermatologists — none could provide lasting help
