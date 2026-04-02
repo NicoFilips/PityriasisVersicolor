@@ -1,5 +1,5 @@
 import { Container, Title, Text, Stack, Paper, Divider, ThemeIcon, Group, Badge, SimpleGrid, List, Alert } from '@mantine/core';
-import { IconDroplet, IconPill, IconLeaf, IconSalad, IconAlertTriangle, IconHeart } from '@tabler/icons-react';
+import { IconDroplet, IconPill, IconLeaf, IconSalad, IconAlertTriangle, IconHeart, IconShirt, IconFlask } from '@tabler/icons-react';
 import { useTranslation } from 'react-i18next';
 import HoverPaper from '../components/HoverPaper';
 import { ComponentType, ReactNode } from 'react';
@@ -108,7 +108,41 @@ export default function Treatments() {
           </List>
         </Section>
 
-        <div className="reveal reveal-delay-6">
+        <Section icon={IconDroplet} title={t('treatments.hygiene.title')} delay={7}>
+          <List spacing="sm" size="sm">
+            <List.Item>{t('treatments.hygiene.shower')}</List.Item>
+            <List.Item>{t('treatments.hygiene.clothes')}</List.Item>
+            <List.Item>{t('treatments.hygiene.bedding')}</List.Item>
+          </List>
+          <Paper p="sm" radius="sm" bg="var(--mantine-color-violet-light)">
+            <Text size="sm" fw={500}>{t('treatments.hygiene.why')}</Text>
+          </Paper>
+        </Section>
+
+        <Section icon={IconShirt} title={t('treatments.environment.title')} delay={8}>
+          <List spacing="sm" size="sm">
+            <List.Item>{t('treatments.environment.towels')}</List.Item>
+            <List.Item>{t('treatments.environment.bedding')}</List.Item>
+            <List.Item>{t('treatments.environment.detergent')}</List.Item>
+            <List.Item>{t('treatments.environment.scalp')}</List.Item>
+            <List.Item>{t('treatments.environment.laundry')}</List.Item>
+          </List>
+          <Text size="xs" c="dimmed" fs="italic">{t('treatments.environment.source')}</Text>
+        </Section>
+
+        <Section icon={IconFlask} title={t('treatments.toTry.title')} delay={9}>
+          <List spacing="sm" size="sm">
+            <List.Item>{t('treatments.toTry.teaTree')}</List.Item>
+            <List.Item>{t('treatments.toTry.salicylic')}</List.Item>
+            <List.Item>{t('treatments.toTry.sebolox')}</List.Item>
+            <List.Item>{t('treatments.toTry.sulfur')}</List.Item>
+            <List.Item>{t('treatments.toTry.candida')}</List.Item>
+            <List.Item>{t('treatments.toTry.coffee')}</List.Item>
+            <List.Item>{t('treatments.toTry.rotation')}</List.Item>
+          </List>
+        </Section>
+
+        <div className="reveal reveal-delay-9">
           <Alert icon={<IconHeart size={20} />} title={t('treatments.honest.title')} color="violet" variant="light">
             <Text size="sm">{t('treatments.honest.text')}</Text>
           </Alert>

@@ -13,6 +13,7 @@ const conditions = [
   { key: 'contact', color: 'red' },
   { key: 'hypopigmentation', color: 'cyan' },
   { key: 'pmh', color: 'teal' },
+  { key: 'carp', color: 'orange' },
   { key: 'mycosis', color: 'grape' },
 ];
 

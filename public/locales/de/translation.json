@@ -78,6 +78,14 @@
       "text": "Die grösste Entdeckung war die Verbindung zwischen Ernährung und meinen Symptomen. Eine strikte ketogene Diät — der vollständige Verzicht auf Kohlenhydrate — ist das Einzige, das einen echten, sichtbaren Unterschied gemacht hat. Das führte mich dazu, die Darm-Haut-Verbindung, Candida und die Rolle des Immunsystems bei der Bewältigung dieser Erkrankung zu untersuchen.",
       "message": "Wenn du das liest und mit dem Gleichen kämpfst — du bist nicht allein. Diese Website ist mein Versuch, alles zusammenzutragen, was ich gelernt habe, damit es jemand anderem helfen könnte, seinen Weg zu besserer Hautgesundheit zu finden."
     },
+    "medical": {
+      "title": "Medizinische Bestätigung",
+      "text": "Über die Jahre haben mehrere Dermatologen unabhängig voneinander meine Diagnose bestätigt — jeder fand dasselbe charakteristische Muster unter dem Mikroskop.",
+      "confirmed": "Jeder Hautabstrich zeigte dasselbe Ergebnis: Hyphen und Sporen in Haufen — das klassische 'Spaghetti-und-Hackbällchen'-Muster, das Pityriasis Versicolor bestätigt. Die aktuellste Untersuchung Anfang 2026 lieferte die bisher detaillierteste Dokumentation.",
+      "xerosis": "Zusätzlich wurde eine ausgeprägte Xerosis cutis diagnostiziert — schwere Hauttrockenheit, die auf eine zusammengebrochene Hautbarriere hinweist. Dies macht die Haut wahrscheinlich anfälliger für Pilzbesiedlung.",
+      "relapse": "Meine PV wurde als hochgradig rückfallgefährdet eingestuft — das bedeutet, dass selbst nach erfolgreicher Behandlung ein Wiederauftreten erwartet wird. Dies bestätigte meine Erfahrung, die Erkrankung trotz jahrelanger konsequenter Behandlung nie vollständig beseitigen zu können.",
+      "candida": "Die Untersuchung stärkte auch meinen Candida-Verdacht: Früherer Antibiotika-Einsatz könnte die Darmflora gestört und Bedingungen für Pilzüberwachstum sowohl im Darm als auch auf der Haut geschaffen haben."
+    },
     "perspective": {
       "title": "Eine andere Perspektive",
       "text": "Das ist eine Erkrankung, die mich — und viele andere — für den Rest unseres Lebens begleiten wird. Es gibt keine Wunderheilung. Und sobald man das akzeptiert, verändert sich etwas. Man hört auf dagegen anzukämpfen und fängt an, mit seinem Körper zu arbeiten statt gegen ihn.",
@@ -185,6 +193,32 @@
       "sugar": "Zucker — erzeugt einen Teufelskreis aus Heisshunger, der es schwer macht, bei der antimykotischen Diät zu bleiben",
       "hygiene": "Duschen auslassen — Ausbrüche verschlechtern sich merklich ohne regelmässige Reinigung"
     },
+    "hygiene": {
+      "title": "Tägliche Hygieneroutine",
+      "shower": "Mindestens zweimal täglich duschen — morgens und abends. Bei jeder Dusche die antimykotische Waschlotion verwenden.",
+      "clothes": "Kleidung zweimal täglich wechseln und nichts zwischen den Wäschen erneut tragen. Der Hefepilz gedeiht in Stoffen, die mit der Haut in Kontakt waren.",
+      "bedding": "Bettwäsche mindestens einmal pro Woche wechseln — idealerweise zweimal. Gleiches gilt für Handtücher: einmal benutzen, dann waschen.",
+      "why": "Malassezia lebt auf der Haut UND in Textilien. Den langanhaltenden Haut-Stoff-Kontakt zu minimieren ist genauso wichtig wie die topische Behandlung."
+    },
+    "environment": {
+      "title": "Umgebung & Textilmanagement",
+      "towels": "Handtücher nur einmal vor dem Waschen benutzen. Klingt extrem, aber der Hefepilz überträgt sich auf und überlebt in feuchten Textilien.",
+      "bedding": "Bettwäsche mindestens wöchentlich wechseln. Atmungsaktive Matratzenmaterialien (Baumwolle, Wolle) in Betracht ziehen, um Feuchtigkeitsansammlung zu reduzieren.",
+      "detergent": "Auf natürliche, pflanzenbasierte Waschmittel umsteigen. Deine Haut ist bis zu 16 Stunden am Tag in Kontakt mit Kleidung und Bettwäsche — aggressive Chemikalien können bereits beanspruchte Haut zusätzlich reizen.",
+      "scalp": "Die Kopfhaut als potenzielles Malassezia-Reservoir behandeln. Regelmässig Zinkpyrithion-Shampoo verwenden, auch wenn die Kopfhautsymptome mild sind.",
+      "laundry": "Wäsche-Hygienespüler (wie Sagrotan Wäsche-Hygienespüler oder Borax) zum Waschgang hinzufügen, um Hefepilze in Textilien abzutöten.",
+      "source": "Viele dieser Strategien stammen aus Community-Berichten — von Menschen, die festgestellt haben, dass Textil- und Umgebungsmanagement neben der medizinischen Behandlung einen bedeutenden Unterschied gemacht hat."
+    },
+    "toTry": {
+      "title": "Noch auszuprobieren",
+      "teaTree": "Teebaumöl — natürliches Antimykotikum, das verdünnt auf betroffene Stellen aufgetragen werden kann",
+      "salicylic": "Salicylsäure — hilft die abgestorbene Hautschicht abzutragen, in der Hefekolonien sich bilden",
+      "sebolox": "Sebolox (Miconazol) — ein alternatives Antimykotikum zu Ketoconazol, soll ähnlich gut wirken",
+      "sulfur": "Schwefelseife oder Neemseife — traditionelle antimykotische Mittel für die Körperwäsche",
+      "candida": "Candida-spezifisches Diätprotokoll — ein gezielterer Ansatz als allgemeines Keto, speziell darauf ausgelegt, Darmhefe auszuhungern",
+      "coffee": "Kaffeekonsum reduzieren — eine persönliche Beobachtung; schien in strikten Phasen mit Verbesserung zu korrelieren",
+      "rotation": "Antimykotische Produkte rotieren — einige Community-Mitglieder berichten von Erfolg durch Wechsel zwischen verschiedenen Waschlotionen (Nizoral, Selsun Blue, Schwefelseife), um Hefepilz-Resistenz zu verhindern"
+    },
     "honest": {
       "title": "Eine ehrliche Einschätzung",
       "text": "Trotz 7-8 Jahren konseqünter Behandlung — topisch, oral, Nahrungsergänzungsmittel und Diät — habe ich die betroffenen Stellen nie vollständig beseitigen können. Dies ist eine chronische Erkrankung, die fortlaufendes Management erfordert, keine einmalige Lösung. Aber die Kombination all dieser Ansätze zusammen hält es besser handhabbar als jede einzelne Behandlung allein."
@@ -233,6 +267,17 @@
     "pvCandida": {
       "title": "PV, Candida & das Immunsystem",
       "text": "Sowohl Pityriasis Versicolor / Tinea Versicolor (Malassezia auf der Haut) als auch Candida (im Darm) sind Pilzerkrankungen. Ein geschwächtes Immunsystem könnte beiden gleichzeitig das Gedeihen ermöglichen. Kohlenhydrat- und Zuckerkonsum füttert beide Pilze gleichzeitig, was erklären könnte, warum Ernährungsumstellungen so dramatische Auswirkungen auf die Hautsymptome haben."
+    },
+    "dairy": {
+      "title": "Milchprodukte & Lipidprofil",
+      "text": "Ein aufkommendes Forschungsgebiet: Der Konsum von Milchprodukten kann das Lipidprofil der Haut verändern, die Talgproduktion erhöhen und deren Zusammensetzung ändern — was möglicherweise ein günstigeres Milieu für das Wachstum von Malassezia schafft.",
+      "nuance": "Nicht alle Milchprodukte sind gleich: Studien deuten darauf hin, dass Milch (besonders fettarme) problematischer für Hauterkrankungen ist, während Joghurt und Käse weniger Zusammenhang zeigen. Eine Meta-Analyse fand keinen klaren Zusammenhang zwischen Joghurt/Käse-Konsum und Hautproblemen.",
+      "relevance": "Für PV speziell: Wenn Milch die Talg- und Lipidproduktion so verändert, dass Malassezia-Wachstum begünstigt wird, könnte eine Reduktion von Milchprodukten — besonders Milch — neben anderen Ernährungsumstellungen einen Versuch wert sein. Dies ist biologisch plausibel, aber noch nicht für PV bewiesen."
+    },
+    "triggerTiming": {
+      "title": "Wie schnell wirken Auslöser?",
+      "text": "Eine persönliche Beobachtung, die mich überrascht hat: Nach dem Verzehr von Trigger-Lebensmitteln (viele Kohlenhydrate, Zucker, Weizen) beginnt der Juckreiz innerhalb von 10–15 Minuten und kann mehrere Stunden anhalten.",
+      "implication": "Dieses schnelle Einsetzen deutet auf einen direkten Darm-Haut-Signalweg hin — nicht nur langsame metabolische Effekte. Es passt zur Theorie, dass Hefe-Fütterung oder Immunreaktionen im Darm die Haut schnell beeinflussen können, was unterstreicht, warum die Darm-Haut-Achse so wichtig ist."
     },
     "strategy": {
       "title": "Meine aktülle Darmgesundheits-Strategie",
@@ -324,6 +369,12 @@
           "pvLocation": "Rumpf, Nacken, Oberarme — bevorzugt seborrhoische Bereiche, schlimmer bei Wärme/Feuchtigkeit",
           "quickRule": "PMH = helle Flecken ohne Schuppung. PV = helle oder dunkle Flecken mit feiner Schuppung."
         }
+      },
+      "carp": {
+        "name": "CARP (Konfluierende und retikulierte Papillomatose)",
+        "type": "Seltene Hauterkrankung",
+        "desc": "Eine seltene Erkrankung, die meist bei Jugendlichen und jungen Erwachsenen auftritt. Braune bis hyperpigmentierte schuppige Läsionen, die zentral zusammenfliessen und an den Rändern ein netzartiges (retikuliertes) Muster bilden. Meist am oberen Rumpf und Nacken. Entscheidend: Sie verschwindet NICHT unter antimykotischer Behandlung und zeigt keine positive Pilzmikroskopie — anders als PV.",
+        "key": "Erhabene/knötchenartige (papulöse) Textur, retikulierte Ränder, spricht NICHT auf Antimykotika an"
       },
       "mycosis": {
         "name": "Mycosis Fungoides",

@@ -78,6 +78,14 @@
       "text": "The biggest discovery has been the connection between diet and my symptoms. A strict ketogenic diet — completely eliminating carbohydrates — is the only thing that has made a real, visible difference. This led me down the path of investigating the gut-skin connection, Candida, and the role of the immune system in managing this condition.",
       "message": "If you're reading this and struggling with the same thing — you're not alone. This website is my attempt to compile everything I've learned so it might help someone else find their path to better skin health."
     },
+    "medical": {
+      "title": "Medical Confirmation",
+      "text": "Over the years, multiple dermatologists have independently confirmed my diagnosis — each finding the same characteristic pattern under the microscope.",
+      "confirmed": "Every skin scrape showed the same result: hyphae and spores in clusters — the classic 'spaghetti and meatballs' pattern that confirms Pityriasis Versicolor. The most recent examination in early 2026 provided the most detailed documentation.",
+      "xerosis": "I was additionally diagnosed with pronounced Xerosis cutis — severe skin dryness indicating a collapsed skin barrier. This likely makes the skin more vulnerable to fungal colonization.",
+      "relapse": "My PV was classified as having a high relapse tendency — meaning even after successful treatment, recurrence is expected. This validated my experience of never fully clearing it despite years of consistent effort.",
+      "candida": "The examination also strengthened my Candida suspicion: prior antibiotic use may have disrupted gut flora, creating conditions for both gut and skin fungal overgrowth."
+    },
     "perspective": {
       "title": "A Different Perspective",
       "text": "This is a condition that will be with me — and many others — for the rest of our lives. There is no magic cure. And once you accept that, something shifts. You stop fighting against it and start working with your body instead.",
@@ -185,6 +193,32 @@
       "sugar": "Sugar — creates a vicious cycle of cravings that makes it hard to stay on the antifungal diet",
       "hygiene": "Skipping showers — outbreaks worsen noticeably without regular cleansing"
     },
+    "hygiene": {
+      "title": "Daily Hygiene Routine",
+      "shower": "Shower at least twice a day — morning and evening. Use your antifungal wash during every shower.",
+      "clothes": "Change clothes twice a day and never re-wear anything between washes. The yeast thrives in fabrics that have been in contact with your skin.",
+      "bedding": "Change bedsheets at least once a week — ideally twice. Same with towels: use them once, then wash.",
+      "why": "Malassezia lives on skin AND in fabrics. Minimizing prolonged skin-to-fabric contact is just as important as topical treatment."
+    },
+    "environment": {
+      "title": "Environment & Fabric Management",
+      "towels": "Use towels only once before washing. It sounds extreme, but yeast transfers to and survives in damp fabric.",
+      "bedding": "Change sheets weekly minimum. Consider breathable mattress materials (cotton, wool) to reduce moisture buildup.",
+      "detergent": "Switch to natural, plant-based detergents. Your skin is in contact with your clothing and bedding up to 16 hours a day — harsh chemicals can further irritate compromised skin.",
+      "scalp": "Treat your scalp as a potential Malassezia reservoir. Use zinc pyrithione shampoo regularly, even if scalp symptoms are mild.",
+      "laundry": "Consider adding laundry sanitizers (like Lysol laundry sanitizer or Borax) to your wash cycle to kill yeast in fabrics.",
+      "source": "Many of these strategies come from community reports — people who found that fabric and environment management made a significant difference alongside medical treatment."
+    },
+    "toTry": {
+      "title": "Things to Try",
+      "teaTree": "Tea tree oil — natural antifungal that can be diluted and applied topically to affected areas",
+      "salicylic": "Salicylic acid — helps exfoliate the dead skin layer where yeast colonies form",
+      "sebolox": "Sebolox (Miconazole) — an alternative antifungal to ketoconazole, reported to work about as well",
+      "sulfur": "Sulfur soap or neem soap — traditional antifungal agents used in body washing routines",
+      "candida": "Candida-specific diet protocol — a more targeted approach than general keto, specifically designed to starve gut yeast",
+      "coffee": "Reducing coffee intake — a personal observation; seemed to correlate with improvement during strict phases",
+      "rotation": "Rotating antifungal products — some community members report success alternating between different washes (Nizoral, Selsun Blue, sulfur soap) to prevent yeast resistance"
+    },
     "honest": {
       "title": "An Honest Assessment",
       "text": "Despite 7-8 years of consistent treatment — topical, oral, supplements, and diet — I have never fully cleared the affected areas. This is a chronic condition that requires ongoing management, not a one-time fix. But the combination of all these approaches together does keep it more manageable than any single treatment alone."
@@ -233,6 +267,17 @@
     "pvCandida": {
       "title": "PV, Candida & The Immune System",
       "text": "Both Pityriasis Versicolor / Tinea Versicolor (Malassezia on the skin) and Candida (in the gut) are fungal conditions. A weakened immune system could allow both to thrive simultaneously. Carbohydrate and sugar intake feeds both fungi at the same time, which might explain why dietary changes have such a dramatic effect on skin symptoms."
+    },
+    "dairy": {
+      "title": "Dairy & Lipid Profile",
+      "text": "An emerging area of investigation: dairy consumption may alter your skin's lipid profile, increasing sebum production and changing its composition — potentially creating a more favorable environment for Malassezia to thrive.",
+      "nuance": "Not all dairy is equal: studies suggest milk (especially low-fat) is more problematic for skin conditions, while yogurt and cheese show less association. A meta-analysis found no clear link between yogurt/cheese consumption and skin problems.",
+      "relevance": "For PV specifically: if milk changes sebum and lipid production in a way that favors Malassezia growth, reducing dairy — especially milk — could be worth trying alongside other dietary changes. This is biologically plausible but not yet proven for PV."
+    },
+    "triggerTiming": {
+      "title": "How Fast Do Triggers Act?",
+      "text": "A personal observation that surprised me: after eating trigger foods (high carbs, sugar, wheat), itching begins within 10–15 minutes and can persist for several hours.",
+      "implication": "This rapid onset suggests a direct gut-to-skin signaling pathway — not just slow metabolic effects. It's consistent with the theory that yeast feeding or immune responses in the gut can quickly affect the skin, reinforcing why the gut-skin axis matters so much."
     },
     "strategy": {
       "title": "My Current Gut Health Strategy",
@@ -324,6 +369,12 @@
           "pvLocation": "Trunk, neck, upper arms — favors seborrheic areas, worse in warm/humid conditions",
           "quickRule": "PMH = light patches without scale. PV = light or dark patches with fine scale."
         }
+      },
+      "carp": {
+        "name": "CARP (Confluent and Reticulated Papillomatosis)",
+        "type": "Rare skin disorder",
+        "desc": "A rare condition usually seen in adolescents and young adults. Brown to hyperpigmented scaly lesions that merge centrally and form a net-like (reticulated) pattern at the edges. Most often on the upper trunk and neck. Crucially, it does NOT clear with antifungal treatment and shows no positive fungal microscopy — unlike PV.",
+        "key": "Raised/bumpy (papular) texture, reticulated edges, does NOT respond to antifungals"
       },
       "mycosis": {
         "name": "Mycosis Fungoides",

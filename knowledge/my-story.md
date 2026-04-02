@@ -72,11 +72,12 @@ Personal observations, experiences, and symptom patterns with Pityriasis Versico
 
 ## Dermatology Report
 <!-- added via add-knowledge, 2026-04-01 -->
-- **Mycologically confirmed PV** — hyphae and spores in clusters ("Spaghetti and meatballs" / "Hyphen und Sporen in Haufen")
+- **Multiple dermatologists over the years** have independently confirmed PV through skin scrapes, all finding the same characteristic pattern — hyphae and spores in clusters ("Spaghetti and meatballs" / "Hyphen und Sporen in Haufen")
+- Most recent examination (early 2026) provided the most detailed documentation
 - Clinically consistent presentation, extensive spread
 - Diagnosed with **pronounced Xerosis cutis** — skin barrier collapse / severe dryness
 - PV classified as a condition with **high relapse tendency** (hohe Rezidivneigung)
-- Source: personal dermatology report
+- Source: personal dermatology reports
 
 ## Motivation for This Website
 <!-- added via add-knowledge, 2026-04-01 -->

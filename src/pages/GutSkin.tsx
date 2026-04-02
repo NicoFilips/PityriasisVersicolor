@@ -1,5 +1,5 @@
-import { Container, Title, Text, Stack, Divider, ThemeIcon, Group, List, Stepper, Alert } from '@mantine/core';
-import { IconLink, IconBug, IconShield, IconLeaf, IconChecklist } from '@tabler/icons-react';
+import { Container, Title, Text, Stack, Paper, Divider, ThemeIcon, Group, List, Stepper, Alert } from '@mantine/core';
+import { IconLink, IconBug, IconShield, IconLeaf, IconChecklist, IconMilk, IconClock } from '@tabler/icons-react';
 import { useTranslation } from 'react-i18next';
 import HoverPaper from '../components/HoverPaper';
 import { ComponentType, ReactNode } from 'react';
@@ -63,7 +63,20 @@ export default function GutSkin() {
           <Text>{t('gutSkin.pvCandida.text')}</Text>
         </Section>
 
-        <Section icon={IconLeaf} title={t('gutSkin.strategy.title')} delay={5}>
+        <Section icon={IconMilk} title={t('gutSkin.dairy.title')} delay={5}>
+          <Text>{t('gutSkin.dairy.text')}</Text>
+          <Text size="sm">{t('gutSkin.dairy.nuance')}</Text>
+          <Paper p="sm" radius="sm" bg="var(--mantine-color-violet-light)">
+            <Text size="sm" fw={500}>{t('gutSkin.dairy.relevance')}</Text>
+          </Paper>
+        </Section>
+
+        <Section icon={IconClock} title={t('gutSkin.triggerTiming.title')} delay={6}>
+          <Text>{t('gutSkin.triggerTiming.text')}</Text>
+          <Text size="sm" c="dimmed" fs="italic">{t('gutSkin.triggerTiming.implication')}</Text>
+        </Section>
+
+        <Section icon={IconLeaf} title={t('gutSkin.strategy.title')} delay={7}>
           <List spacing="sm" size="sm">
             <List.Item>{t('gutSkin.strategy.probiotics')}</List.Item>
             <List.Item>{t('gutSkin.strategy.prebiotics')}</List.Item>
@@ -74,7 +87,7 @@ export default function GutSkin() {
           </List>
         </Section>
 
-        <div className="reveal reveal-delay-6">
+        <div className="reveal reveal-delay-8">
           <Alert icon={<IconChecklist size={20} />} title={t('gutSkin.tryThis.title')} color="violet" variant="light">
             <Text size="sm" mb="sm">{t('gutSkin.tryThis.text')}</Text>
             <Stepper active={-1} orientation="vertical" size="sm" color="violet">

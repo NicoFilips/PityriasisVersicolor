@@ -1,5 +1,5 @@
 import { Container, Title, Text, Stack, Paper, Divider, ThemeIcon, Group, List } from '@mantine/core';
-import { IconBook, IconBodyScan, IconMoodSad, IconBulb, IconHeart } from '@tabler/icons-react';
+import { IconBook, IconBodyScan, IconMoodSad, IconBulb, IconHeart, IconStethoscope } from '@tabler/icons-react';
 import { useTranslation } from 'react-i18next';
 import HoverPaper from '../components/HoverPaper';
 import { ComponentType, ReactNode } from 'react';
@@ -58,14 +58,24 @@ export default function Story() {
           <Text size="sm" c="dimmed" fs="italic">{t('story.struggle.itching')}</Text>
         </Section>
 
-        <Section icon={IconBulb} title={t('story.discovery.title')} delay={5}>
+        <Section icon={IconStethoscope} title={t('story.medical.title')} delay={5}>
+          <Text>{t('story.medical.text')}</Text>
+          <List spacing="sm" size="sm">
+            <List.Item>{t('story.medical.confirmed')}</List.Item>
+            <List.Item>{t('story.medical.xerosis')}</List.Item>
+            <List.Item>{t('story.medical.relapse')}</List.Item>
+            <List.Item>{t('story.medical.candida')}</List.Item>
+          </List>
+        </Section>
+
+        <Section icon={IconBulb} title={t('story.discovery.title')} delay={6}>
           <Text>{t('story.discovery.text')}</Text>
           <Paper p="sm" radius="sm" bg="var(--mantine-color-violet-light)">
             <Text size="sm" fw={500}>{t('story.discovery.message')}</Text>
           </Paper>
         </Section>
 
-        <Section icon={IconHeart} title={t('story.perspective.title')} delay={6}>
+        <Section icon={IconHeart} title={t('story.perspective.title')} delay={7}>
           <Text>{t('story.perspective.text')}</Text>
           <Text>{t('story.perspective.stress')}</Text>
           <Text>{t('story.perspective.growth')}</Text>
